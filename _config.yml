@@ -1,0 +1,17 @@
+auto: true
+server: true
+permalink: none
+baseurl: ""
+exclude:
+- .gitignore
+- README.md
+
+prose:
+  _posts/articles:
+    layout: article
+    title: Introducing Prose Bootstrap
+    abstract: Prose Bootstrap is a simple template in order to get started with Jekyll.
+    author_twitter: _mql
+    author: Michael Aufreiter
+    categories:
+    - articles
