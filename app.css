@@ -56,7 +56,7 @@ html,body {
 
 body,
 textarea,
-input { font: 13px/20px 'OpenSans', sans-serif; }
+input { font: 13px/20px Merriweather,Georgia,'Times New Roman','Hoefler Text', sans-serif; }
 
 a {
   color: #A33A20;
@@ -211,7 +211,7 @@ p {
   padding-left: 0px;
   margin-right: 141px;
   font-size: 26px;
-  color: rgba(255,255,255, 0.8);
+  color: rgba(0,0,0, 0.8);
   background: none;
 }
 
@@ -490,26 +490,6 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 /* ------------------------------------------
   Article
 ---------------------------------------------*/
-
-#main .start #menu {
-  background: #3d3d34;
-}
-
-#main .features #menu {
-  background: #86a2a9;
-}
-
-#main .modules #menu {
-  background: #b16649;
-}
-
-#main .team #menu {
-  background: #90963c;
-}
-
-#main .contribute #menu {
-  background: #E9EAE5;
-}
 
 
 .features .article-navigation .article-link.active {
@@ -798,7 +778,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   width: 800px;
   margin: 0px auto;
   padding: 20px 0;
-  font-family: 'OpenSans', sans-serif;
+  font-family: Merriweather, Georgia,'Times New Roman','Hoefler Text', sans-serif;
   font-weight: normal;
   font-size: 16px;
   }

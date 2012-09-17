@@ -3,53 +3,13 @@ layout: default
 permalink: /projects/
 ---
 
-<div class="modules">
+<div class="projects">
   {% include menu.html %}
   <div class="article-navigation">
-    
     {% for item in site.categories.projects reversed limit:40 offset:0 %}
-      <a class="article-link{% if item.title == "Document" %} active{% endif %}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
+      <a class="project" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
         <div class="title" style="padding-top: 43px">{{item.title}}</div>
       </a>
     {% endfor %}
   </div>
 </div>
-
-{% for page in site.categories.projects reversed limit:1 offset:2 %}
-
-  <div class="intro">
-    <div class="title">
-    {{page.title}}
-      <div class="small-progress-bar">
-        <div class="progress{% if page.progress > 0 %} done{% endif %}"></div>
-        <div class="label">{{page.version}}</div>
-        <div class="progress{% if page.progress > 1 %} done{% endif %}"></div>
-        <div class="progress{% if page.progress > 2 %} done{% endif %}"></div>
-        <div class="progress{% if page.progress > 3 %} done{% endif %}"></div>
-        <div class="progress{% if page.progress > 4 %} done{% endif %}"></div>
-        <div class="progress{% if page.progress > 5 %} done{% endif %}"></div>
-        <div class="progress{% if page.progress > 6 %} done{% endif %}"></div>
-        <div class="progress{% if page.progress > 7 %} done{% endif %}"></div>
-        <div class="progress{% if page.progress > 8 %} done{% endif %}"></div>
-        <div class="progress{% if page.progress > 9 %} done{% endif %}"></div>
-      </div>
-    </div>
-    <div class="abstract">{{page.abstract}}</div>
-  </div>
-
-  <div class="article-wrapper">
-    <div class="help post-content">
-      {{ page.content }}
-    </div>
-  </div>
-
-  <div class="improve-article-wrapper">
-    <div class="improve-article">
-      <a class="button" href="{{page.prose_link }}">Edit in Prose</a>
-      <p>
-        This article has been written and published using <a href="http://prose.io" target="_blank">Prose</a>. Please help improving it by contributing to the text.
-      </p>
-    </div>
-  </div>
-{% endfor %}
-
