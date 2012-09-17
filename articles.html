@@ -5,20 +5,21 @@ permalink: /articles/
 
 <div class="journal">
   {% include menu.html %}
-  <div class="article-navigation">
-    {% for item in site.categories.articles limit:40 offset:0 %}
-      <a class="article-link{% if forloop.index == 1 %} active{% endif %}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
-        <div class="number">{{forloop.index}}</div>
-        <div class="title">{{item.title}}</div>
-      </a>
-    {% endfor %}
-    <br class="clear"/>
-  </div>
 
   <div class="article-content">
     {% for page in site.categories.articles limit:1 offset: 0 %}
 
       <div class="intro">
+        <div class="article-navigation">
+          {% for item in site.categories.articles limit:40 offset:0 %}
+            <a class="article-link{% if forloop.index == 1 %} active{% endif %}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
+              <div class="number">{{forloop.index}}</div>
+              <div class="title">{{item.title}}</div>
+            </a>
+          {% endfor %}
+          <br class="clear"/>
+        </div>
+        
         <div class="title">{{page.title}}</div>
         <div class="abstract">{{page.abstract}}</div>
       </div>
