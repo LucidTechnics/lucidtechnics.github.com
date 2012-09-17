@@ -13,7 +13,6 @@ All you have to do is forking the repository and make your own adjustments.
 
 ![Start](http://f.cl.ly/items/0t0A170b2Y093F2u1w45/Screen%20Shot%202012-05-23%20at%205.48.45%20PM.png)
 
-
 Adjust Configuration
 -----------------
 

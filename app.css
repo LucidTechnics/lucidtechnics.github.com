@@ -48,7 +48,7 @@ html {
 ---------------------------------------------*/
 html,body {
   color: #444;
-  background: #F0F1EB;
+  background: #D8D8D5;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   line-height: 1.5em;
@@ -189,13 +189,15 @@ p {
 }
 
 #menu a {
-  color: #fff;
-  background: rgba(0,0,0, 0.2);
-  padding: 10px 20px;
+  color: #444;
+  /*background: rgba(0,0,0, 0.2);*/
+  padding: 7px 15px;
   font-weight: bold;
-  -moz-border-radius: 4px;
+  font-family: "Open Sans";
+
+/*  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
-  border-radius: 4px;
+  border-radius: 4px;*/
 
   display: block;
   float: left;
@@ -209,18 +211,24 @@ p {
 
 #menu a.title {
   padding-left: 0px;
-  margin-right: 141px;
+  margin-right: 30px;
   font-size: 26px;
   color: rgba(0,0,0, 0.8);
   background: none;
 }
+
 
 #menu a.title.active, #menu a.title:hover {
   background: none;
 }
 
 #menu a.active, #menu a:hover {
-  background: rgba(0,0,0, 0.5);
+  color: #fff;
+  background: #1aa9e1;
+}
+
+#menu a.title:hover {
+  color: #000;
 }
 
 
@@ -487,6 +495,41 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   margin-top:-32767px;/* thank you Erik J - negate effect of float*/
   }
 
+
+/* ------------------------------------------
+  Projects
+---------------------------------------------*/
+
+.project-navigation {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px 0;
+  padding-bottom: 50px;
+}
+
+.project-navigation .project {
+  float: left;
+  width: 380px;
+  height: 300px;
+  display: block;
+  background: #444;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+.project-navigation .project:hover {
+  opacity: 1.0;
+}
+
+.project-navigation .project .title {
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+  background: rgba(0,0,0, 0.9);
+}
+
 /* ------------------------------------------
   Article
 ---------------------------------------------*/
@@ -501,49 +544,25 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 
-#main .start {
-  background: #E9EAE5;
-  border-bottom: 1px solid #ccc;
-}
-
-#main .features {
-  background: #E9EAE5;
-  /*border-bottom: 1px solid #ccc;*/
-}
-
-#main .modules {
-  background: #E9EAE5;
-  /*border-bottom: 1px solid #ccc;*/
-}
-
-#main .contribute {
-  background: #E9EAE5;
-  /*border-bottom: 1px solid #ccc;*/
-}
-
-
 #main .team {
   background: #E9EAE5;
   border-bottom: 1px solid #ccc;
 }
 
 
-
-
 .article-navigation {
   width: 800px;
   margin: 0 auto;
   padding: 30px 0;
-  overflow: auto;
+  padding-bottom: 50px;
 }
 
 .article-navigation .article-link {
   position: relative;
   display: block;
   float: left;
-  height: 110px;
-  width: 110px;
-
+  height: 30px;
+  width: 30px;
 
   -moz-border-radius: 55px;
   -webkit-border-radius: 55px;
@@ -560,29 +579,43 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 
-.article-link .title {
-  vertical-align: middle;
-  padding: 0 10px;
-  overflow: hidden;
-  padding-top: 30px;
+.article-link .number {
+  line-height: 30px;
 }
 
+.article-link .title {
+  position: absolute;
+  left: -150px;
+  top: 40px;
+  width: 300px;
+  
+  display: none;
+  vertical-align: middle;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.article-link:hover .title {
+  display: block;
+  color: #444;
+  /*background: blue;*/
+
+}
+
+
 .article-navigation .article-link.active {
-  /*border: 3px solid #fff;*/
-  /*background: rgba(0,0,0, 0.5);*/
-  /*background: #078FA2;*/
   color: white;
   opacity: 1.0;
 }
 
 .article-navigation .article-link:hover {
   opacity: 0.8;
-  /*background: rgba(0,0,0, 0.5);*/
 }
 
 .article-navigation .article-link.active:hover {
   opacity: 1.0;
-  /*background: rgba(0,0,0, 0.5);*/
+  /* background: rgba(0,0,0, 0.5);*/
 }
 
 .article-wrapper {
@@ -648,53 +681,6 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   margin-bottom: 10px; 
   font-weight: bold;
   padding-bottom: 20px;
-
-}
-
-
-
-.small-progress-bar {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  overflow: visible;
-}
-
-.small-progress-bar .label {
-  font-size: 15px;
-  position: absolute;
-  left: -200px;
-  width: 180px;
-  padding-top: 7px;
-  color: #999;
-  text-align: right;
-}
-
-.small-progress-bar .progress {
-  background: rgba(0,0,0, 0.2);
-  margin-right: 1px;
-  width: 25px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 50px;
-  height: 40px;
-  float: left;
-}
-
-.small-progress-bar .progress:first-child {
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-}
-
-.small-progress-bar .progress:last-child {
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
-  font-size: 25px;
-}
-
-.small-progress-bar .progress.done {
-  background: #85AE25;
-  color: white;
 }
 
 
