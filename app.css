@@ -321,7 +321,7 @@ p {
 }
 
 .slides .slide .inner {
-  height: 400px;
+  height: 500px;
   width: 800px;
   margin: 0 auto;
   color: #fff;
@@ -339,14 +339,14 @@ p {
 .slides .slide .title {
   font-weight: bold;
   position: absolute;
-  top: 120px;
+  top: 140px;
   left: 0px;
   font-size: 40px;
 }
 
 .slides .slide .teaser {
   position: absolute;
-  top: 170px;
+  top: 230px;
   left: 0px;
   font-size: 25px;
   line-height: 40px;

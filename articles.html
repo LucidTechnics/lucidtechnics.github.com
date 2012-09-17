@@ -19,9 +19,10 @@ permalink: /articles/
           {% endfor %}
           <br class="clear"/>
         </div>
-        
+
         <div class="title">{{page.title}}</div>
         <div class="abstract">{{page.abstract}}</div>
+        <div class="meta"> Posted by <a href="http://twitter.com/{{page.author_twitter}}">{{page.author}}</a> on {{ page.date | date: "%B %d, %Y" }} </div>
       </div>
 
       <div class="article-wrapper">
