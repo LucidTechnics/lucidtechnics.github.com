@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Substance
-abstract: Substance is a distributed system for creating and sharing documents among peers.
+abstract: Substance is a distributed system for creating and sharing digital documents.
 prose_link:
   http://prose.io/#lucidtechnics/lucidtechnics.github.com/edit/master/_posts/features/0100-01-03-distributed.md
-author_twitter: _mql
+author_twitter: lucidtechnics
 author: Bediako George
 status: Work in progress
 categories:
@@ -33,9 +33,6 @@ Most things in life are not perfect. That's also true for every document ever wr
 Substance considers content as data, which allows for interesting things like semantic data analysis and novel visualizations. Imagine you can query documents like a database. With Substance you can.
 
 
-![](/images/illustrations/content-is-data.png)
-
-
 # Content Types
 
 New content node types should be supported through a plugin system. Applications using the editor require different content types. Examples for such plugins would be:
@@ -45,7 +42,6 @@ New content node types should be supported through a plugin system. Applications
 - Maps
 - Tables
 - Charts
-
 
 ![](http://substance-assets.s3.amazonaws.com/62/583a4ca6c6a0bef0868fc8eb8402a7/mom.png)
 
