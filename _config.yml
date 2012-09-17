@@ -1,7 +1,7 @@
 auto: true
 server: true
 permalink: none
-baseurl: "http://lucidtechnics.github.com"
+baseurl: ""
 exclude:
 - .gitignore
 - README.md
