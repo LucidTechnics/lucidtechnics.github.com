@@ -1,3 +1,5 @@
+/* @override http://lucidtechnics.github.com/app.css */
+
 /* ------------------------------------------
   Reset ♥
   http://meyerweb.com/eric/tools/css/reset/
@@ -46,9 +48,11 @@ html {
 /* ------------------------------------------
   Typography
 ---------------------------------------------*/
+
+body{
+}
+
 html,body {
-  color: #444;
-  background: #D8D8D5;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   line-height: 1.5em;
@@ -122,6 +126,27 @@ p {
   Globals
 ---------------------------------------------*/
 
+html,body {
+  color: #444;
+  background-color: #398cbf;
+}
+
+/* rounded */
+#menu a,
+.slides .navigation a,
+.article-navigation .article-link{
+  border-radius:2px;	
+}
+
+.project-navigation .project{
+  border-radius:6px;
+}
+
+.project-navigation .project .title {
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+}
+
 .darker {
   background: #E9EAE5;
   border-top: 1px solid #ccc;
@@ -132,7 +157,7 @@ p {
 #header {
   padding: 0 20px;
   height: 60px;
-  background: #3d3d34;
+  background: #31374b;
   overflow: visible;
   }
 
@@ -181,6 +206,8 @@ p {
 #menu {
   padding: 50px 0;
   overflow: auto;
+	margin-bottom: 0;
+	background-color: rgba(235,235,235,0.1);
 }
 
 #menu .inner {
@@ -193,7 +220,7 @@ p {
   /*background: rgba(0,0,0, 0.2);*/
   padding: 7px 15px;
   font-weight: bold;
-  font-family: "Open Sans";
+  font-family: 'OpenSans';
 
 /*  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -203,6 +230,10 @@ p {
   float: left;
   margin-right: 30px;
   font-size: 18px;
+}
+
+#menu a:first-child{
+	font-family: Merriweather;
 }
 
 #menu a:last-child {
@@ -224,7 +255,7 @@ p {
 
 #menu a.active, #menu a:hover {
   color: #fff;
-  background: #1aa9e1;
+  background: rgba(13,67,115,0.7);
 }
 
 #menu a.title:hover {
@@ -236,8 +267,9 @@ p {
 #main {
   font-size: 16px;
   overflow:auto;
-  padding-bottom: 60px; /* must be same height as the footer */
-  }
+  padding-bottom: 60px;
+	background-color: rgba(255,255,255,0.92);
+}
 
 #post .inner  {
   position: relative;
@@ -443,8 +475,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   width: 380px;
   height: 300px;
   display: block;
-  background: #444;
-  background-image: url(images/nyc-bg.jpeg);
+  background: #31374b;
   margin-bottom: 20px;
   margin-right: 10px;
   opacity: 0.8;
@@ -459,7 +490,8 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   height: 60px;
   line-height: 60px;
   padding-left: 20px;
-  background: rgba(0,0,0, 0.9);
+  background: #4c7497;
+  border-top-left-radius:3px;
 }
 
 /* ------------------------------------------
@@ -473,12 +505,6 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 .modules .article-navigation .article-link.active {
   background: #b16649;
-}
-
-
-#main .team {
-  background: #E9EAE5;
-  border-bottom: 1px solid #ccc;
 }
 
 
@@ -594,12 +620,14 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .intro {
-  background: #444;
-  color: #eee;
   line-height: 1.5em;
   padding: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border: 1px solid #d1d3d1;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: #fff;
 }
 
 .intro .title {
