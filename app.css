@@ -580,6 +580,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .article-wrapper {
   padding-bottom: 50px;
   border-top: 1px solid #CCC;
+  padding-top: 30px;
   border-bottom: 1px solid #CCC;
 }
 
@@ -655,16 +656,10 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 .intro .meta {
   width: 800px;
-  margin: 20px auto;
+  margin: 0px auto;
   padding-top: 20px;
-  background: rgba(0,0,0, 0.05);
-  border: 1px solid #ccc;
   overflow: auto;
-  padding: 20px;
-
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  font-style: italic;
 }
 
 .intro .meta .contributors {
