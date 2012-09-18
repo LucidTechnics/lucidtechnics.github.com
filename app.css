@@ -20,10 +20,10 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
-  }
+	font-style: inherit;
+	font-size: 100%;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -60,10 +60,13 @@ html,body {
 
 body,
 textarea,
-input { font: 13px/20px Merriweather,Georgia,'Times New Roman','Hoefler Text', sans-serif; }
+input {
+	font-family: Merriweather,Georgia,'Times New Roman','Hoefler Text', sans-serif;
+	line-height: 20px;
+}
 
 a {
-  color: #A33A20;
+  color: #d34444;
   text-decoration: none;
   -moz-transition: background 100ms linear, color 100ms linear;
   -o-transition: background 100ms linear, color 100ms linear;
@@ -71,8 +74,9 @@ a {
   transition: background 100ms linear, color 100ms linear;
   font-weight: bold;
   }
+  
 a:hover {
-  color: #CF4A29;
+  color: #d34444;
   }
 
 a:focus {
@@ -127,8 +131,7 @@ p {
 ---------------------------------------------*/
 
 html,body {
-  color: #444;
-  background-color: #398cbf;
+  color: #ccc;
 }
 
 /* rounded */
@@ -229,7 +232,6 @@ html,body {
   display: block;
   float: left;
   margin-right: 30px;
-  font-size: 18px;
 }
 
 #menu a:first-child{
@@ -255,7 +257,7 @@ html,body {
 
 #menu a.active, #menu a:hover {
   color: #fff;
-  background: rgba(13,67,115,0.7);
+  background: #d34444;
 }
 
 #menu a.title:hover {
@@ -268,7 +270,7 @@ html,body {
   font-size: 16px;
   overflow:auto;
   padding-bottom: 60px;
-	background-color: rgba(255,255,255,0.92);
+	background-color: #fff;
 }
 
 #post .inner  {
@@ -361,11 +363,15 @@ html,body {
 }
 
 .slides .slide .inner {
-  height: 500px;
   width: 800px;
   margin: 0 auto;
   color: #fff;
   position: relative;
+	height: 500px;
+}
+
+.slides .slide-1 {
+  background-image: url(images/nyc-bg.jpeg);
 }
 
 .slides .slide .mask {
@@ -475,27 +481,27 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .project-navigation .project {
-  float: left;
   width: 380px;
   height: 300px;
   display: block;
   background: #31374b;
   margin-bottom: 20px;
   margin-right: 10px;
-  opacity: 0.8;
+  opacity: 1.0;
+	float: left;
 }
 
 .project-navigation .project:hover {
-  opacity: 1.0;
+ opacity: 0.8;
 }
 
 .project-navigation .project .title {
-  color: #fff;
+  color: #000;
   height: 60px;
   line-height: 60px;
   padding-left: 20px;
-  background: #4c7497;
   border-top-left-radius:3px;
+	background-color: rgba(245,246,246,0.95);
 }
 
 /* ------------------------------------------
@@ -508,7 +514,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .modules .article-navigation .article-link.active {
-  background: #b16649;
+	background-color: #6abbdd;
 }
 
 
@@ -540,6 +546,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 .article-link .number {
   line-height: 30px;
+	color: #fff;
 }
 
 .article-link .title {
@@ -557,9 +564,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 .article-link:hover .title {
   display: block;
-  color: #444;
-  /*background: blue;*/
-
+	color: #444;
 }
 
 
@@ -588,13 +593,13 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .improve-article-wrapper a.button {
   width: 100px;
   float: left;
-  color: rgba(255,255,255, 0.8);
+  color: #eaeaea;
   display: block;
   line-height: 1.5em;
 
   /*margin: 30px 250px;*/
   padding: 20px 0;
-  background: rgba(0,0,0, 0.7);
+  background: #323232;
   border: 1px solid #CCC;
   border-radius: 5px;
   font-weight: bold;
@@ -609,7 +614,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .improve-article-wrapper {
   font-size: 20px;
   padding: 20px 0;
-  background: #E9EAE5;
+  background: #eaeaea;
   border-bottom: 1px solid #CCC;
 }
 
@@ -625,39 +630,41 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .intro {
-  line-height: 1.5em;
   padding: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border: 1px solid #d1d3d1;
+  padding-top: 30px;
+  padding-bottom: 30px;
 	border-right-style: none;
 	border-left-style: none;
-	background-color: #fff;
+	background-color: #323232;
+	color: #eaeaea;
+	border-color: #eaeaea;
+	border-width: 1px;
 }
 
 .intro .title {
   position: relative;
   width: 800px;
-  margin: 0px auto;
   font-size: 36px; 
-  margin-bottom: 10px; 
   font-weight: bold;
   padding-bottom: 20px;
+	margin: 20px auto 10px;
 }
 
 
 .intro .abstract {
   width: 800px;
-  font-size: 20px;
   margin: 0px auto;
   padding: 20px 0;
   padding-bottom: 30px;
+	color: #fff;
 }
 
 .intro .meta {
   width: 800px;
   margin: 0px auto;
   padding-top: 20px;
+  background: rgba(0,0,0, 0.05);
+  border: 1px solid #424242;
   overflow: auto;
   font-style: italic;
 }
@@ -893,7 +900,7 @@ pre, code {
     /*font-family: 'Bitstream Vera Sans Mono', Courier, monospace;*/
     font-family: Menlo, monospace;
     color: #333;
-    background: #E9EAE5;
+    background: #f8f8f8;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
