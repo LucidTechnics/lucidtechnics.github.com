@@ -11,7 +11,6 @@ layout: default
         {% for item in site.categories.articles limit:40 offset:0 %}
           <a class="article-link{% if page.title == item.title %} active{% endif %}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
             <div class="number">{{forloop.index}}</div>
-            <div class="title">{{item.title}}</div>
           </a>
         {% endfor %}
         <br class="clear"/>
