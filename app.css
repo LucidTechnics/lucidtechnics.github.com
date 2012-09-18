@@ -20,10 +20,10 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
-  }
+	font-style: inherit;
+	font-size: 100%;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -60,7 +60,10 @@ html,body {
 
 body,
 textarea,
-input { font: 13px/20px Merriweather,Georgia,'Times New Roman','Hoefler Text', sans-serif; }
+input {
+	font-family: Merriweather,Georgia,'Times New Roman','Hoefler Text', sans-serif;
+	line-height: 20px;
+}
 
 a {
   color: #d34444;
@@ -128,8 +131,7 @@ p {
 ---------------------------------------------*/
 
 html,body {
-  color: #444;
-  background-color: #398cbf;
+  color: #ccc;
 }
 
 /* rounded */
@@ -230,7 +232,6 @@ html,body {
   display: block;
   float: left;
   margin-right: 30px;
-  font-size: 18px;
 }
 
 #menu a:first-child{
@@ -354,11 +355,11 @@ html,body {
 }
 
 .slides .slide .inner {
-  height: 500px;
   width: 800px;
   margin: 0 auto;
   color: #fff;
   position: relative;
+	height: 500px;
 }
 
 .slides .slide-1 {
@@ -620,7 +621,6 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .intro {
-  line-height: 1.5em;
   padding: 40px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -644,7 +644,6 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 .intro .abstract {
   width: 800px;
-  font-size: 20px;
   margin: 0px auto;
   padding: 20px 0;
   padding-bottom: 30px;
