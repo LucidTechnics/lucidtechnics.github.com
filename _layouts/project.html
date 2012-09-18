@@ -4,13 +4,6 @@ layout: default
 
 <div class="projects">
   {% include menu.html %}
-  <!--<div class="article-navigation">
-    {% for item in site.categories.projects reversed limit:40 offset:0 %}
-      <a class="article-link{% if page.title == item.title %} active{% endif %}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
-        <div class="title" style="padding-top: 43px">{{item.title}}</div>
-      </a>
-    {% endfor %}
-  </div>-->
 </div>
 
 
@@ -19,25 +12,6 @@ layout: default
 
   </div>
   <div class="abstract">{{page.abstract}}</div>
-  <!--<div class="meta">
-    <div class="contributors">
-      <div class="caption">Contributors</div>
-      {% for item in page.contributors %}
-        <a class="contributor" href="http://github.com/{{item.user}}" title="{{ item.name }}">
-          <img src="{{ item.avatar }}" width="40" height="40"/>
-        </a>
-      {% endfor %}
-    </div>
-    <div class="links">
-      <div class="caption">Links</div>
-      <div class="link-listing">
-        <a class="button" href="{{page.links.source}}" target="_blank">Source Code</a>
-        {% if page.links.demo %}
-          <a class="button" href="{{page.links.demo}}" target="_blank">Demo</a>
-        {% endif %}
-      </div>
-    </div>
-  </div>-->
 </div>
 
 <div class="article-wrapper">
