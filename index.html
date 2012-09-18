@@ -1,7 +1,31 @@
 ---
 layout: default
 permalink: /
+
+slides:
+- title: Slide 1
+  teaser: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  image: /images/nyc-bg.jpeg
+- title: Slide 2
+  teaser: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  image: /images/barrels.gif
+- title: Slide 3
+  teaser: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  image: /images/electricity.png
 ---
+
+<script>
+  $(function() {
+    console.log('THA SCRIPT');
+    $('.toggle-slide').click(function(e) {
+      var slideNum = $(e.currentTarget).attr('data-slide');
+      $('.slides .slide').hide();
+
+      console.log($('.slide-'+slideNum));
+      $('.slide-'+slideNum).show();
+    });
+  });
+</script>
 
 <div class="start">
   {% include menu.html %}
@@ -22,18 +46,18 @@ permalink: /
       <a href="#" class="toggle-slide" data-slide="3">3</a>
     </div>
 
-    <div class="slide slide-1 active">
-      <div class="mask">
-        <div class="inner">
-          <div class="title">Automated Systems</div>
-          <div class="teaser">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+    <!-- The Slides -->
+    {% for item in page.slides %}
+      <div class="slide slide-{{forloop.index}}{% if forloop.index == 1 %} active{% endif %}" style="background-image: url({{item.image}});">
+        <div class="mask">
+          <div class="inner">
+            <div class="title">{{item.title}}</div>
+            <div class="teaser">{{item.teaser}}</div>
+            <div class="link"></div>
           </div>
-          <div class="link"></div>
         </div>
       </div>
-    </div>
+    {% endfor %}
   </div>
 </div>
 

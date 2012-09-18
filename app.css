@@ -320,16 +320,20 @@ p {
   opacity: 1.0;
 }
 
+.slides .slide {
+  display: none;
+}
+
+.slides .slide.active {
+  display: block;
+}
+
 .slides .slide .inner {
   height: 500px;
   width: 800px;
   margin: 0 auto;
   color: #fff;
   position: relative;
-}
-
-.slides .slide-1 {
-  background-image: url(images/nyc-bg.jpeg);
 }
 
 .slides .slide .mask {
