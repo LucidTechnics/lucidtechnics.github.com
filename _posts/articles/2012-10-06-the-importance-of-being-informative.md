@@ -6,14 +6,14 @@ author_twitter: _mql
 author: Bediako George
 categories:
 - articles
-published: true
+published: false
 ---
 
 If you are a public transit commuter in Washington D.C., no doubt you are spending a fair portion of your time wondering about the state of our subway transit. I have been commuting via subway for a fair number of years now, and during that time I have often made observations about the dynamics of our subway, and how they relate to the design and architecture of applications that we build for the web.
 
 It was not so long ago that WMATA installed status signs above the tracks in every subway station. As an example, I have included a photo of one of those signs ...
 
-
+![Washington DC train status electronic sign](/images/articles/metrotrainstatus.jpg)
 
 This represents a big improvement over what had existed before, which was limited to a set of flashing lights at track level meant to warn you that a train was just arriving, but really nothing more than that. Without these signs, passengers would stand in the subway station without any clue as to when the next train will arrive.
 
