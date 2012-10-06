@@ -13,7 +13,7 @@ If you are a public transit commuter in Washington D.C., no doubt you are spendi
 
 It was not so long ago that WMATA installed status signs above the tracks in every subway station. As an example, I have included a photo of one of those signs ...
 
-:![Washington DC train status electronic sign](https://raw.github.com/LucidTechnics/lucidtechnics.github.com/master/images/articles/metrotrainstatus.jpg style="aligh:middle"):
+:![Washington DC train status electronic sign](https://raw.github.com/LucidTechnics/lucidtechnics.github.com/master/images/articles/metrotrainstatus.jpg style="align:middle"):
 
 This represents a big improvement over what had existed before, which was limited to a set of flashing lights at track level meant to warn you that a train was just arriving, but really nothing more than that. Without these signs, passengers would stand in the subway station without any clue as to when the next train will arrive.
 
