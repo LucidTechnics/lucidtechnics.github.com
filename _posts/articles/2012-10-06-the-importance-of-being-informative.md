@@ -1,17 +1,11 @@
 ---
 layout: article
-title: The lorem ipsum
-abstract: Curabitur ac ante sit amet elit placerat luctus. Pellentesque quis tellus urna, in euismod mi. Pellentesque ultricies dictum massa, non faucibus ligula iaculis sed.
+title: The Importance of Being Informative
+abstract: ... how can Washington D.C. metro system do a better job of communicating train status using their existing electronic signs?
 author_twitter: _mql
-author: Michael Aufreiter
+author: Bediako George
 categories:
 - articles
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper lacinia purus, id gravida tortor semper et. Mauris quis dolor at quam tincidunt lacinia quis quis nunc. In vulputate nibh at enim ullamcorper adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-
-# Neque porro quisquam
-
-
-Sed facilisis felis in justo iaculis placerat. Donec venenatis suscipit metus congue sodales. Sed suscipit lorem sit amet ipsum condimentum vitae mattis dui lobortis. Etiam quis tortor nulla. Sed id quam non arcu eleifend tempor. Fusce tincidunt condimentum nisl, vitae laoreet lorem rhoncus eget. Nunc nec libero mi, vel posuere mauris. In neque arcu, rutrum sed consectetur at, lobortis nec mauris.
+If you are a public transit commuter in Washington DC, no doubt you are spending a fair portion of your time wondering about the state of our subway transit. I have been commuting via subway for a fair number of years now, and during that time I have often made observations about the dynamics of our subway, and how they relate to the design and architecture of applications that we build for the web.
