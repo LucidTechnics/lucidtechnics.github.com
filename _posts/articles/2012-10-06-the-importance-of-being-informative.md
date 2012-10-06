@@ -8,7 +8,7 @@ categories:
 - articles
 ---
 
-If you are a public transit commuter in Washington DC, no doubt you are spending a fair portion of your time wondering about the state of our subway transit. I have been commuting via subway for a fair number of years now, and during that time I have often made observations about the dynamics of our subway, and how they relate to the design and architecture of applications that we build for the web.
+If you are a public transit commuter in Washington D.C., no doubt you are spending a fair portion of your time wondering about the state of our subway transit. I have been commuting via subway for a fair number of years now, and during that time I have often made observations about the dynamics of our subway, and how they relate to the design and architecture of applications that we build for the web.
 
 It was not so long ago that WMATA installed status signs above the tracks in every subway station. As an example, I have included a photo of one of those signs.
 
