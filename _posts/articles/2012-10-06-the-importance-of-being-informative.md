@@ -6,7 +6,7 @@ author_twitter: _mql
 author: Bediako George
 categories:
 - articles
-published: true
+published: false
 ---
 
 If you are a public transit commuter in Washington D.C., no doubt you are spending a fair portion of your time wondering about the state of our subway transit. I have been commuting via subway for a fair number of years now, and during that time I have often made observations about the dynamics of our subway, and how they relate to the design and architecture of applications that we build for the web.
@@ -37,7 +37,7 @@ Well, one way to do this would be to reuse the existing signs. There is a proble
 
 What if WMATA used colored symbols (shapes) combined with a prioritized information set? One example of such a presentation could be to model this using a combination of popular station hops and system status colors. The picture below gives you an example of what one such sign would look like:
 
-![Washington DC train status electronic sign](https://raw.github.com/LucidTechnics/lucidtechnics.github.com/master/images/articles/metrosignrevamped.png)
+![Revamped Washington DC train status electronic sign](https://raw.github.com/LucidTechnics/lucidtechnics.github.com/master/images/articles/metrosignrevamped.png)
 
 So instead of showing the end of the line information and the arrival time of the next train, we can show the expected arrival times for key stations in the system. What stations would qualify as key stations? This would depend on the station you are waiting in, but it would most often be transfer stations, and popular exit points. So if you get on the Red line train at Takoma station and you are heading downtown during the morning rush hour, the message board should give you the expected arrival times for Takoma, Union Station, Gallery Place, and Metro Center. For the vast number of travelers entering Takoma I would expect that this would be more than enough to determine whether or not the system is working well. The color coded symbols will tell you whether or not the expected arrival time is considered normal or abnormal.
 
