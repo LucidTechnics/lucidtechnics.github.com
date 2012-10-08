@@ -1,9 +1,11 @@
 <div id="menu">
+  
   <div class="inner">
     <a class="title" href="/{{site.baseurl}}" class="title">Lucid Technics</a>
-    <a href="/"{% if page.url == '/' %} class="active"{% endif %}>Intro</a>
-    <a href="/projects/"{% if page.url contains '/projects/' %} class="active"{% endif %}>Projects</a>
-    <a href="/articles/"{% if page.url contains '/articles/' %} class="active"{% endif %}>Journal</a>
-    <a href="/team/"{% if page.url contains '/team/' %} class="active"{% endif %}>Team</a>
+    <a class="home{% if page.url == '/' %} active{% endif %}" href="/">Home</a>
+    <a class="projects{% if page.url contains '/projects/' %} active{% endif %}" href="/projects/">Projects</a>
+    <a class="articles{% if page.url contains '/articles/' %} active{% endif %}" href="/articles/">Journal</a>
+    <a class="team{% if page.url contains '/team/' %} active{% endif %}" href="/team/">Team</a>
   </div>
+  <div class="ruler"></div>
 </div>

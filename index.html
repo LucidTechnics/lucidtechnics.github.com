@@ -17,6 +17,8 @@ slides:
 <script>
   $(function() {
     $('.toggle-slide').click(function(e) {
+      $('.slides .toggle-slide').removeClass('active');
+      $(e.currentTarget).addClass('active');
       var slideNum = $(e.currentTarget).attr('data-slide');
       $('.slides .slide').hide();
 
@@ -40,7 +42,7 @@ slides:
 
   <div class="slides">
     <div class="navigation">
-      <a href="#" class="toggle-slide" data-slide="1">1</a>
+      <a href="#" class="toggle-slide active" data-slide="1">1</a>
       <a href="#" class="toggle-slide" data-slide="2">2</a>
       <a href="#" class="toggle-slide" data-slide="3">3</a>
     </div>
