@@ -13,55 +13,55 @@ slides:
   teaser: Our open source software solutions are proven winners, employing cloud computing and machine learning technology to your company's advantage.
   image: /images/electricity.png
 ---
+<div id='main' class="home">
+  <script>
+    $(function() {
+      $('.toggle-slide').click(function(e) {
+        $('.slides .toggle-slide').removeClass('active');
+        $(e.currentTarget).addClass('active');
+        var slideNum = $(e.currentTarget).attr('data-slide');
+        $('.slides .slide').hide();
 
-<script>
-  $(function() {
-    $('.toggle-slide').click(function(e) {
-      $('.slides .toggle-slide').removeClass('active');
-      $(e.currentTarget).addClass('active');
-      var slideNum = $(e.currentTarget).attr('data-slide');
-      $('.slides .slide').hide();
-
-      console.log($('.slide-'+slideNum));
-      $('.slide-'+slideNum).show();
+        console.log($('.slide-'+slideNum));
+        $('.slide-'+slideNum).show();
+      });
     });
-  });
-</script>
+  </script>
 
-<div class="start">
-  {% include menu.html %}
-  <!--<div class="plot">
-    <p>
-      Lucid Technics is a modern software consultancy. 
-    </p>
-    <p class="smaller">
-      We help our customers build great software. We are guided by the design principles of simplicity and minimalism, and apply these tenets whenever possible. 
-      In our experience, this leads to the creation of software that is a delight to use.
-    </p>
-  </div>-->
+  <div class="start">
+    {% include menu.html %}
+    <!--<div class="plot">
+      <p>
+        Lucid Technics is a modern software consultancy. 
+      </p>
+      <p class="smaller">
+        We help our customers build great software. We are guided by the design principles of simplicity and minimalism, and apply these tenets whenever possible. 
+        In our experience, this leads to the creation of software that is a delight to use.
+      </p>
+    </div>-->
 
-  <div class="slides">
-    <div class="navigation">
-      <a href="#" class="toggle-slide active" data-slide="1">1</a>
-      <a href="#" class="toggle-slide" data-slide="2">2</a>
-      <a href="#" class="toggle-slide" data-slide="3">3</a>
-    </div>
+    <div class="slides">
+      <div class="navigation">
+        <a href="#" class="toggle-slide first active" data-slide="1">1</a>
+        <a href="#" class="toggle-slide" data-slide="2">2</a>
+        <a href="#" class="toggle-slide last" data-slide="3">3</a>
+      </div>
 
-    <!-- The Slides -->
-    {% for item in page.slides %}
-      <div class="slide slide-{{forloop.index}}{% if forloop.index == 1 %} active{% endif %}" style="background-image: url({{item.image}});">
-        <div class="mask">
-          <div class="inner">
-            <div class="title">{{item.title}}</div>
-            <div class="teaser">{{item.teaser}}</div>
-            <div class="link"></div>
+      <!-- The Slides -->
+      {% for item in page.slides %}
+        <div class="slide slide-{{forloop.index}}{% if forloop.index == 1 %} active{% endif %}" style="background-image: url({{item.image}});">
+          <div class="mask">
+            <div class="inner">
+              <div class="title">{{item.title}}</div>
+              <div class="teaser">{{item.teaser}}</div>
+              <div class="link"></div>
+            </div>
           </div>
         </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </div>
-
 <!--<div class="content">
   <h1>Embrace the Web</h1>
   <p class="answer">
