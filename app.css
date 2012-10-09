@@ -340,7 +340,8 @@ html,body {
 }
 
 #main.home,
-#main.articles{
+#main.articles,
+#main.project{
 	padding-bottom: 0;
 }
 
