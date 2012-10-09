@@ -513,7 +513,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 }
 
 #footer {
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-weight: 300; /* negative value of footer height */
   height: 90px;
   overflow: hidden;
