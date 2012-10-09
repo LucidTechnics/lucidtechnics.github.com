@@ -2,7 +2,7 @@
 layout: article
 title: Introducing Prose Bootstrap
 abstract: Prose Bootstrap is a simple template in order to get started with Jekyll.
-author_twitter: _mql
+author_twitter: lucidtechnics
 author: Michael Aufreiter
 categories:
 - articles

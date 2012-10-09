@@ -2,7 +2,7 @@
 layout: article
 title: The Importance of Being Informative
 abstract: ... how can Washington D.C. metro system do a better job of communicating train status using their existing electronic signs?
-author_twitter: _mql
+author_twitter: lucidtechnics
 author: Bediako George
 categories:
 - articles

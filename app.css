@@ -67,7 +67,7 @@ input {
 }
 
 a {
-  color: #d34444;
+  color: #2C5173;
   text-decoration: none;
   -moz-transition: background 100ms linear, color 100ms linear;
   -o-transition: background 100ms linear, color 100ms linear;
@@ -77,7 +77,7 @@ a {
   }
   
 a:hover {
-  color: #d34444;
+  color: #0D1925;
   }
 
 a:focus {
@@ -133,18 +133,10 @@ p {
 
 html,body {
   color: #555;
-  background-color: #E0E0E0;
+  /*background-color: #E0E0E0;*/
 }
 
 
-.project-navigation .project{
-  border-radius:6px;
-}
-
-.project-navigation .project .title {
-  border-top-left-radius:3px;
-  border-top-right-radius:3px;
-}
 
 .slides .navigation a.first,
 .article-navigation .article-link.first{
@@ -283,6 +275,10 @@ html,body {
   border-bottom: 10px solid rgba(248, 149, 21, 1);
 }
 
+#menu a.home:hover {
+  background: rgba(248, 149, 21, 0.1);
+}
+
 #menu a.home.active {
   background: rgba(248, 149, 21, 0.5);
   color: #fff;
@@ -290,6 +286,10 @@ html,body {
 
 #menu a.projects {
   border-bottom: 10px solid rgba(234, 40, 65, 1);
+}
+
+#menu a.projects:hover {
+  background: rgba(234, 40, 65, 0.1);
 }
 
 #menu a.projects.active {
@@ -301,6 +301,10 @@ html,body {
   border-bottom: 10px solid rgba(126, 170, 16, 1);
 }
 
+#menu a.articles:hover {
+  background: rgba(126, 170, 16, 0.1);
+}
+
 #menu a.articles.active {
   background: rgba(126, 170, 16, 0.5);
   color: #fff;
@@ -308,6 +312,10 @@ html,body {
 
 #menu a.team {
   border-bottom: 10px solid rgba(59, 98, 126, 1.0);
+}
+
+#menu a.team:hover {
+  background: rgba(59, 98, 126, 0.1);
 }
 
 #menu a.team.active {
@@ -362,20 +370,26 @@ html,body {
 
 #main h1 {
   padding: 10px 0;
+  font-family: 'Open Sans';
+  font-weight: bold;
   padding-top: 20px;
 }
 #main .team-members .member h1 {
   padding-top: 0px;
+  color: #0C2331;
+  border-bottom: 1px solid #ccc;
 }
 #main .team-members .member {
-  background: rgba(0,0,0, 0.05);
-  border: 1px solid #ccc;
+  /*background: rgba(0,0,0, 0.05);*/
+  /*border: 1px solid #ccc;*/
   margin-bottom: 30px;
   overflow: auto;
-  padding: 20px;
+  padding: 20px 0;
+  margin-bottom: 20px;
 }
 
 #main .team-members .member img {
+  margin-top: 10px;
   border-radius: 5px;
   float: left;
 }
@@ -386,6 +400,21 @@ html,body {
 
 #main .team-members .member .links {
   padding-top: 20px;
+}
+
+#main .team-members .member .links a {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  color: white;
+  background: #0C2331;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 2px;
+  opacity: 0.8;
+}
+
+#main .team-members .member .links a:hover {
+  opacity: 1.0;
 }
 
 /* ------------------------------------------
@@ -512,23 +541,65 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   min-width: 800px;
 }
 
+.footer-separator {
+  height: 10px;
+  background: #0C2331;
+}
+
+.footer-separator .colorstrips {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.footer-separator .colorstrip {
+  width: 131px;
+  height: 10px;
+  color: red;
+  float: right;
+  border-right: 1px solid #fff;
+}
+
+.footer-separator .colorstrip.one {
+  border-left: 1px solid #fff;
+  background: rgba(248, 149, 21, 1);
+}
+
+.footer-separator .colorstrip.two {
+  background: rgba(234, 40, 65, 1);
+}
+
+.footer-separator .colorstrip.three {
+  background: rgba(126, 170, 16, 1.0);
+}
+
+.footer-separator .colorstrip.four {
+  background: rgba(59, 98, 126, 1.0);
+}
+
 #footer {
   font-family: 'Open Sans';
-  font-weight: 300; /* negative value of footer height */
-  height: 90px;
+  font-weight: 300; 
+  height: 90px; /* negative value of footer height */
   overflow: hidden;
   line-height: 90px;
-  background: #E0E0E0;
-  border-top: 10px solid #0C2331;
+  background: #fff;  
 	clear: both;
 }
 
 #footer .footer-content {
   width: 800px;
   margin: 0 auto;
+  font-size: 18px;
+}
 
-  font-size: 16px;
-  }
+
+#footer .footer-content .copyright {
+  float: left;
+}
+
+#footer .footer-content .note {
+  float: right;
+}
 
 #footer a.help, #footer a.about{ 
   margin-right: 20px;
@@ -569,26 +640,44 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .project-navigation .project {
-  width: 380px;
   height: 300px;
   display: block;
   background: #31374b;
   margin-bottom: 20px;
   margin-right: 15px;
-  opacity: 1.0;
-	float: left;
+  opacity: 0.8;
+  position: relative;
+}
+
+.project-navigation a.project {
+  
+}
+
+.project-navigation a.project .abstract {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  bottom: 0;
+  background-color: rgba(255,255,255, 0.8);
+  padding: 30px 20px;
+  line-height: 1.5em;
+  color: #0C2331;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 22px;
 }
 
 .project-navigation .project:hover {
- opacity: 0.8;
+ opacity: 1.0;
 }
 
 .project-navigation .project .title {
-  color: #000;
+  font-family: 'Open Sans';
+  color: #0C2331;
   height: 60px;
   line-height: 60px;
   padding-left: 20px;
-  border-top-left-radius:3px;
 	background-color: rgba(245,246,246,0.95);
 }
 
@@ -682,15 +771,14 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   line-height: 1.5em;
 
   padding: 20px 0;
-  background: #323232;
-  border: 1px solid #CCC;
+  background: #47515A;
   border-radius: 5px;
   font-weight: bold;
   text-align: center;
 }
 
 .improve-article-wrapper a.button:hover {
-  background: rgba(0,0,0, 0.8);
+  background: #0D1925;
   color: rgba(255,255,255, 1);
 }
 

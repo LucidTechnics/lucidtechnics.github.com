@@ -14,6 +14,7 @@ permalink: /projects/
       {% for item in site.categories.projects reversed limit:40 offset:0 %}
         <a class="project" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}" style="background-image: url({{item.image}});">
           <div class="title">{{item.title}}</div>
+          <div class="abstract">{{item.abstract}}</div>
         </a>
       {% endfor %}
     </div>
