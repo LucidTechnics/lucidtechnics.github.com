@@ -1,4 +1,7 @@
-/* @override http://lucidtechnics.github.com/app.css */
+/* @override 
+	http://lucidtechnics.github.com/app.css
+	http://localhost:4000/app.css
+*/
 
 /* ------------------------------------------
   Reset ♥
@@ -130,6 +133,7 @@ p {
 
 html,body {
   color: #555;
+	background-color: #E0E0E0;
 }
 
 
@@ -200,7 +204,7 @@ html,body {
 
 #menu {
   padding: 0px 0;
-  overflow: auto;
+  overflow: none;
 	margin-bottom: 0;
   position: relative;
   height: 90px;
@@ -222,19 +226,20 @@ html,body {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  width: 800px;
   background: #fff;
   margin: 0 auto;
   z-index: 1000;
-  overflow: auto;
+  overflow: none;
+	width: 800px;
+	padding: 0;
 }
 
 #menu a {
   color: #444;
   /*background: rgba(0,0,0, 0.2);*/
   padding: 7px 15px;
-  font-weight: bold;
-  font-family: 'OpenSans';
+  font-weight: 700;
+  font-family: 'Open Sans';
   z-index: 2000;
 
 /*  -moz-border-radius: 4px;
@@ -244,8 +249,7 @@ html,body {
   display: block;
   float: left;
   margin-right: 1px;
-  /*border-right: 5px solid #fff;*/
-
+	width: 134px;
 }
 
 #menu a:first-child{
@@ -266,6 +270,7 @@ html,body {
   color: rgba(0,0,0, 0.8);
   border-bottom: 10px solid #0C2331;
   background: none;
+	width: 260px;
 }
 
 /* Active states */
@@ -326,7 +331,6 @@ html,body {
 #main {
   font-size: 16px;
   overflow:auto;
-  padding-bottom: 90px;
 	background-color: #fff;
 }
 
@@ -402,7 +406,8 @@ html,body {
   /*margin-right: 20px;*/
   margin-right: 1px;
   width: 70px;
-  font-family: 'OpenSans-Bold';
+  font-family: 'Open Sans';
+  font-weight: 700;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -438,12 +443,13 @@ html,body {
 
 .slides .slide .mask {
   background-color: rgba(224,224,224, 0.9);
+  min-height: 600px;
 }
 
 .slides .slide .title {
-  font-weight: bold;
+  font-weight: 700;
   position: absolute;
-  font-family: 'OpenSans-Bold';
+  font-family: 'Open Sans';
   top: 140px;
   left: 0px;
   font-size: 40px;
@@ -453,8 +459,8 @@ html,body {
   opacity: 0.8;
   position: absolute;
   top: 230px;
-  font-family: 'OpenSans-Light';
-  font-weight: normal;
+  font-family: 'Open Sans';
+  font-weight: 300;
   left: 0px;
   font-size: 25px;
   line-height: 40px;
@@ -490,23 +496,19 @@ vertical margins (top and bottom) to add spacing, else those margins get added t
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
 
 #container { 
-  min-height: 100%;
   min-width: 800px;
   }
 
 #footer {
-  font-family: 'OpenSans-Light';
-
-  position: relative;
-  margin-top: -90px; /* negative value of footer height */
+  font-family: 'OpenSans';
+  font-weight: 300; /* negative value of footer height */
   height: 90px;
   overflow: hidden;
   line-height: 90px;
   background: #E0E0E0;
   border-top: 10px solid #0C2331;
-  /*border-top: 1px solid #c3ccd0;*/
-  clear:both;
-  }
+	clear: both;
+}
 
 #footer .footer-content {
   width: 800px;
@@ -677,7 +679,8 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .improve-article-wrapper {
-  font-family: 'OpenSans-Light';
+  font-family: 'Open Sans';
+  font-weight: 300;
   border-top: 1px solid #CCC;
   font-size: 20px;
   padding: 20px 0;
@@ -705,12 +708,12 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .intro .title {
-  font-family: 'OpenSans-Bold';
+  font-family: 'Open Sans';
   position: relative;
   width: 800px;
   font-size: 36px;
 
-  font-weight: bold;
+  font-weight: 700;
   padding-bottom: 20px;
 	margin: 20px auto 10px;
 }
@@ -722,14 +725,16 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   padding: 20px 0;
   padding-bottom: 30px;
   opacity: 0.7;
-  font-family: 'OpenSans-Light';
+  font-family: 'Open Sans';
+  font-weight: 300;
   font-size: 25px;
   line-height: 1.5em;
 }
 
 .intro .meta {
   height: 50px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
+  font-weight: 400;
   font-size: 16px;
   width: 800px;
   opacity: 0.9;
