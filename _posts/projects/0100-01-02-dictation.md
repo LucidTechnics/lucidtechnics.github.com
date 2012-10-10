@@ -19,7 +19,7 @@ The best thing about Dictation is how easy it is to read and write. Our less tec
     A Customer
     has a nick name
     has a full name
-    has a date of birth which is type date
+    has a date of birth --> dictation automatically knows this has the type "date"
     has a social security number which is sensitive
     can be viewed or created or changed by a customer service representative
 
