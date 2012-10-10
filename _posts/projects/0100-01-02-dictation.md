@@ -19,7 +19,7 @@ The best thing about Dictation is how easy it is to read and write. Our less tec
     A Customer
     has a nick name
     has a full name
-    has a date of birth --> dictation automatically knows this has the type "date"
+    has a date of birth (dictation automatically knows this has the type "date")
     has a social security number which is sensitive
     can be viewed or created or changed by a customer service representative
 
@@ -28,7 +28,7 @@ The best thing about Dictation is how easy it is to read and write. Our less tec
     has a description
     can be viewed or created or changed by a customer service representative
 
-    An Order Line Item is audited --> this means you want to keep track of changes!
+    An Order Line Item is audited (lets dictation know to keep track of all changes)
     belongs to an Order
     has a description
     has a price which is a number
