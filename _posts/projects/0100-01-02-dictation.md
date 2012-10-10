@@ -34,4 +34,4 @@ The best thing about Dictation is how easy it is to read and write. Our less tec
     has a price which is a number
     can be viewed or created or changed by a customer service representative
 
-After describing your business using Dictation requirements as shown above, we can then generate software that will support a fully function order taking application.  We estimate that using Dictation along with Airlift our open source cloud based web application framework, we can reduce a project execution time by 50% or more.
+After describing your business using Dictation requirements as shown above, we can then generate software that will support a fully function order taking application.  We estimate that using Dictation along with <a href="http://lucidtechnics.github.com/projects/airlift.html">Airlift</a> our open source cloud based web application framework, we can reduce a project execution time by 50% or more.
