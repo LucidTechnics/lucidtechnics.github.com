@@ -645,7 +645,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   background: #31374b;
   margin-bottom: 20px;
   margin-right: 15px;
-  opacity: 0.8;
+  opacity: 1.0;
   position: relative;
 }
 
@@ -657,28 +657,36 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   position: absolute;
   left: 0;
   right: 0;
-  top: 60px;
-  bottom: 0;
-  background-color: rgba(255,255,255, 0.8);
-  padding: 30px 20px;
-  line-height: 1.5em;
-  color: #0C2331;
+  height: 30px;
+  bottom: 0px;
+  background-color: rgba(0,0,0,0.7);
+  /*background-color: rgba(255,255,255, 0.8);*/
+  /*padding: 30px 20px;*/
+
+  /*line-height: 50px;*/
+  color: #fff;
   font-family: 'Open Sans';
-  font-weight: 300;
-  font-size: 22px;
+  font-weight: 200;
+  padding-left: 20px;
+  font-size: 17px;
 }
 
 .project-navigation .project:hover {
- opacity: 1.0;
+ opacity: 0.9;
 }
 
 .project-navigation .project .title {
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
   font-family: 'Open Sans';
-  color: #0C2331;
-  height: 60px;
-  line-height: 60px;
+  font-size: 30px;
+  color: #fff;
+  line-height: 50px;
   padding-left: 20px;
-	background-color: rgba(245,246,246,0.95);
+	background-color: rgba(0,0,0,0.7);
 }
 
 /* ------------------------------------------

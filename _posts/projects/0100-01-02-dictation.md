@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Dictation
-abstract: ... an open source english based domain specific language for describing business applications.
+abstract: An open source english based domain specific language for describing business applications.
 prose_link:
   http://prose.io/#lucidtechnics/lucidtechnics.github.com/edit/master/_posts/features/0100-01-02-dictation.md
 author_twitter: lucidtechnics
@@ -12,40 +12,26 @@ categories:
 published: true
 ---
 
-Dictation is an open source english based domain specific language for describing business applications.  Using Dictation, one can create
-a
+Dictation is an open source english based domain specific language for describing business applications.  Using Dictation, one can describe all resources in your business environment, then take that description and generate working software from it.  This is the method we use to rapidly build your software.  Dictation can describe your business down to the lowest levels, even including your operation's audit and security concerns.
 
-# Structured composition
+The best thing about Dictation is how easy it is to read and write. Our less technically savvy clients can fully understand Dictation.  It looks and sounds just like english!  Take a look at the following example of Dictation paragraphs that describe a customer, her order, and the line items in the order.
 
-Instead of sequential text-editing, documents are composed of Content Nodes. While existing solutions (like Google Docs) bring traditional word-processing to the web, Substance focusses on content, by leaving the layout part to the system, not the user. Because of the absence of formatting utilities, it suggests structured content-oriented writing. 
+    A Customer
+    has a nick name
+    has a full name
+    has a date of birth (Dictation automatically knows this is a "date")
+    has a social security number which is sensitive
+    can be viewed or created or changed by a customer service representative
 
+    An Order
+    belongs to a Customer
+    has a description
+    can be viewed or created or changed by a customer service representative
 
-![](http://substance-assets.s3.amazonaws.com/29/0cff0d34004080f40be83968f81af2/editing.png)
+    An Order Line Item is audited (lets Dictation know to keep track of all changes)
+    belongs to an Order
+    has a description
+    has a price which is a number
+    can be viewed or created or changed by a customer service representative
 
-Substance uses a uniform data format that allows Cross Media Publishing to arbitrary targets such as Print (PDF, LaTex), E-Book (ePub, Kindle) or integration with a website. Thus it's also fundamentally different from conventional Wiki Systems, that are based on Hypertext. Substance is Open Source, free to use and doesn't introduce vendor lock-ins.
-
-# Eventually consistent
-
-Most things in life are not perfect. That's also true for every document ever written or to be written. Substance supports a workflow that assumes documents will be consistent eventually. We claim that it's way easier to reach consistency if you publish early and provide an easy way for collaboration. Substance helps with implementing a peer-review process, with every reader being a peer.
-
-
-# Content is data
-
-Substance considers content as data, which allows for interesting things like semantic data analysis and novel visualizations. Imagine you can query documents like a database. With Substance you can.
-
-
-# Content Types
-
-New content node types should be supported through a plugin system. Applications using the editor require different content types. Examples for such plugins would be:
-
-- Chemical Structures
-- Formulas
-- Maps
-- Tables
-- Charts
-
-![](http://substance-assets.s3.amazonaws.com/62/583a4ca6c6a0bef0868fc8eb8402a7/mom.png)
-
-# Imitating paper
-
-Traditional digital formats have always tried to imitate paper. Think of footnotes and references that are listed at the bottom of the document. We're going to break with this tradition and introduce only general concepts that are relevant to digital content.
+After describing your business using Dictation requirements as shown above, we can then generate software that will support a fully function order taking application.  We estimate that using Dictation along with <a href="http://lucidtechnics.github.com/projects/airlift.html">Airlift</a> our open source cloud based web application framework, we can reduce a project execution time by 50% or more.
