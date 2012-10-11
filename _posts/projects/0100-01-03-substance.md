@@ -6,7 +6,7 @@ prose_link:
   http://prose.io/#lucidtechnics/lucidtechnics.github.com/edit/master/_posts/features/0100-01-03-distributed.md
 author_twitter: lucidtechnics
 author: Bediako George
-image: /images/nature.jpeg
+image: /images/redwood_794_244.jpg
 categories:
 - projects
 published: true
