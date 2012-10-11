@@ -3,7 +3,7 @@ layout: project
 title: Substance
 abstract: Substance is a distributed system for creating and sharing digital documents.
 prose_link:
-  http://prose.io/#lucidtechnics/lucidtechnics.github.com/edit/master/_posts/features/0100-01-03-distributed.md
+  http://prose.io/#lucidtechnics/lucidtechnics.github.com/edit/master/_posts/features/0100-01-05-distributed.md
 author_twitter: lucidtechnics
 author: Bediako George
 image: /images/redwood_794_244.jpg
