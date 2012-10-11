@@ -1,0 +1,7 @@
+<div class="about-menu">
+	<div class="inner">
+		<a class="{% if page.url == '/about/' %} active{% endif %}" href="/about">About</a>
+		<a class="{% if page.url contains '/about/team/' %} active{% endif %}" href="/about/team/">Team</a>
+		<a class="{% if page.url contains '/about/jobs/' %} active{% endif %}" href="/about/jobs/">Jobs</a>
+	</div>
+</div>

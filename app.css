@@ -196,7 +196,7 @@ html,body {
   }*/
 
 #main .plot {
-  width: 800px;
+  width: 844px;
   margin: 0 auto;
   padding: 30px 0;
   color: #666;
@@ -241,13 +241,15 @@ html,body {
 #menu a {
   color: #444;
   /*background: rgba(0,0,0, 0.2);*/
-  padding: 30px 42px;
+  padding: 30px 0px;
+  text-align: center;
   font-weight: 700;
   font-family: 'Open Sans';
   z-index: 2000;
   display: block;
   float: left;
   margin-right: 1px;
+  width: 137px;
 }
 
 #menu a:first-child{
@@ -260,8 +262,8 @@ html,body {
 
 #menu a.title {
   /*margin-right: 30px;*/
-
-  padding: 30px 70px 30px 25px;
+  text-align: left;
+  padding: 30px 70px 30px 0px;
   font-size: 26px;
   color: rgba(0,0,0, 0.8);
   border-bottom: 10px solid #0C2331;
@@ -311,11 +313,13 @@ html,body {
 }
 
 #menu a.team {
+  width: 138px;
   border-bottom: 10px solid rgba(59, 98, 126, 1.0);
 }
 
 #menu a.team:hover {
   background: rgba(59, 98, 126, 0.1);
+
 }
 
 #menu a.team.active {
@@ -359,11 +363,11 @@ html,body {
 
 
 /* ------------------------------------------
-  Team
+  About
 ---------------------------------------------*/
 
 #main .team-members {
-  width: 800px;
+  width: 844px;
   margin: 0 auto;
   padding-top: 30px;
 }
@@ -417,6 +421,35 @@ html,body {
   opacity: 1.0;
 }
 
+.about-menu {
+  background: #E0E0E0;
+  
+}
+
+.about-menu .inner {
+  width: 844px;
+  margin: 0 auto;
+  overflow: auto;
+  height: 60px;
+}
+
+.about-menu a {
+  float: left;
+  line-height: 60px;
+  padding: 0 20px;
+}
+
+.about-menu a.active {
+  background: #0C2331;
+  color: #fff;
+}
+
+.jobs {
+  width: 844px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
 /* ------------------------------------------
   Startpage
 ---------------------------------------------*/
@@ -433,7 +466,7 @@ html,body {
   z-index: 2000;
   position: absolute;
   top: 40px;
-  width: 800px;
+  width: 844px;
   left: 0px;
   right: 0px;
   margin: 0 auto;
@@ -471,7 +504,7 @@ html,body {
 }
 
 .slides .slide .inner {
-  width: 800px;
+  width: 844px;
   margin: 0 auto;
   color: #0C2331;
   position: relative;
@@ -511,7 +544,7 @@ html,body {
 
 
 .content {
-  width: 800px;
+  width: 844px;
   margin: 0 auto;
 }
 
@@ -538,7 +571,7 @@ vertical margins (top and bottom) to add spacing, else those margins get added t
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
 
 #container { 
-  min-width: 800px;
+  min-width: 844px;
 }
 
 .footer-separator {
@@ -547,12 +580,13 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 }
 
 .footer-separator .colorstrips {
-  width: 800px;
+  width: 844px;
   margin: 0 auto;
+  overflow: auto;
 }
 
 .footer-separator .colorstrip {
-  width: 131px;
+  width: 137px;
   height: 10px;
   color: red;
   float: right;
@@ -587,7 +621,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 }
 
 #footer .footer-content {
-  width: 800px;
+  width: 844px;
   margin: 0 auto;
   font-size: 18px;
 }
@@ -634,7 +668,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .project-navigation {
-  width: 800px;
+  width: 844px;
   margin: 0 auto;
 	padding: 30px 0 50px;
 }
@@ -700,7 +734,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 
 .article-navigation {
-  width: 800px;
+  width: 844px;
   margin: 0 auto;
   padding: 30px 0;
 
@@ -801,7 +835,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 .improve-article {
   overflow: auto;
-  width: 800px;
+  width: 844px;
   margin: 20px auto;
 }
 
@@ -823,7 +857,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .intro .title {
   font-family: 'Open Sans';
   position: relative;
-  width: 800px;
+  width: 844px;
   font-size: 36px;
 
   font-weight: 700;
@@ -833,7 +867,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 
 .intro .abstract {
-  width: 800px;
+  width: 844px;
   margin: 0px auto;
   padding: 20px 0;
   padding-bottom: 30px;
@@ -849,7 +883,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
-  width: 800px;
+  width: 844px;
   opacity: 0.9;
   margin: 0px auto;
   padding-top: 20px;
@@ -911,7 +945,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .post-content {
-  width: 800px;
+  width: 844px;
   margin: 0px auto;
   padding: 20px 0;
   font-family: Merriweather, Georgia,'Times New Roman','Hoefler Text', sans-serif;
