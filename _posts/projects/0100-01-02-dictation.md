@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Dictation
-abstract: An open source english based domain specific language for describing business applications.
+abstract: ... an open source english based domain specific language for describing business applications.
 prose_link:
   http://prose.io/#lucidtechnics/lucidtechnics.github.com/edit/master/_posts/features/0100-01-02-dictation.md
 author_twitter: lucidtechnics
