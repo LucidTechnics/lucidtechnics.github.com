@@ -6,7 +6,7 @@ prose_link:
   http://prose.io/#lucidtechnics/lucidtechnics.github.com/edit/master/_posts/features/0100-01-02-dictation.md
 author_twitter: lucidtechnics
 author: Bediako George
-image: /images/nature.jpeg
+image: /images/dictation.jpg
 categories:
 - projects
 published: true
