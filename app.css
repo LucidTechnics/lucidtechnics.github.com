@@ -424,22 +424,25 @@ html,body {
 .about-menu {
   background: #E0E0E0;
   font-family: 'Open Sans';
+  padding-top: 10px;
 }
 
 .about-menu .inner {
   width: 844px;
   margin: 0 auto;
+  
   overflow: auto;
-  height: 60px;
+  height: 50px;
 }
 
 .about-menu a {
   float: left;
-  line-height: 60px;
+  line-height: 50px;
   padding: 0 20px;
-  width: 95px;
+  width: 80px;
+  margin-right: 5px;
   text-align: center;
-  
+  border-radius: 3px;
 }
 
 .about-menu a:hover {
