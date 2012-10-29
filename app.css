@@ -263,7 +263,7 @@ html,body {
 #menu a.title {
   /*margin-right: 30px;*/
   text-align: left;
-  padding: 30px 70px 30px 0px;
+  padding: 20px 70px 20px 0px;
   font-size: 26px;
   color: rgba(0,0,0, 0.8);
   border-bottom: 10px solid #0C2331;
@@ -423,7 +423,7 @@ html,body {
 
 .about-menu {
   background: #E0E0E0;
-  
+  font-family: 'Open Sans';
 }
 
 .about-menu .inner {
@@ -437,6 +437,13 @@ html,body {
   float: left;
   line-height: 60px;
   padding: 0 20px;
+  width: 95px;
+  text-align: center;
+  
+}
+
+.about-menu a:hover {
+  background: rgba(0,0,0, 0.1);
 }
 
 .about-menu a.active {
