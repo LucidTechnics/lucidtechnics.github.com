@@ -282,7 +282,7 @@ html,body {
 }
 
 #menu a.home.active {
-  background: rgba(248, 149, 21, 0.25);
+  background: rgba(248, 149, 21, 0.5);
   color: #fff;
 }
 
@@ -526,7 +526,7 @@ html,body {
 }
 
 .slides .slide .mask {
-  background-color: rgba(224,224,224, 0.9);
+  background-color: rgba(224,224,224, 0.5);
   min-height: 600px;
 }
 
