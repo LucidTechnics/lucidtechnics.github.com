@@ -526,7 +526,7 @@ html,body {
 }
 
 .slides .slide .mask {
-  background-color: rgba(224,224,224, 0.5);
+  background-color: rgba(224,224,224, 0.75);
   min-height: 600px;
 }
 
