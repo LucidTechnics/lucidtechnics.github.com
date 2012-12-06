@@ -526,7 +526,7 @@ html,body {
 }
 
 .slides .slide .mask {
-  background-color: rgba(224,224,224, 0.75);
+  background-color: rgba(224,224,224, 0.8);
   min-height: 600px;
 }
 
@@ -544,7 +544,7 @@ html,body {
   position: absolute;
   top: 230px;
   font-family: 'Open Sans';
-  font-weight: 600;
+  font-weight: 400;
   left: 0px;
   font-size: 25px;
   line-height: 40px;
