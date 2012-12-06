@@ -282,7 +282,7 @@ html,body {
 }
 
 #menu a.home.active {
-  background: rgba(248, 149, 21, 0.5);
+  background: rgba(248, 149, 21, 0.25);
   color: #fff;
 }
 
