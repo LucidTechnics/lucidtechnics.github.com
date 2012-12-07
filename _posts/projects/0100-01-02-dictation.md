@@ -36,6 +36,6 @@ The best thing about Dictation is how easy it is to read and write. You do not h
     has a price which is a number
     can be viewed or created or changed by a customer service representative
 
-After describing your business using Dictation requirements as shown above, we can then generate software that will support a fully functional order taking application.  Dictation will generate software that understands customers have orders, orders have line items, and that any changes to an order's line items should be recorded.  Also the software will automatically encrypt the customer's social security number as it is deemed to be sensitive information.
+After describing your business using Dictation requirements as shown above, we can then generate software that will support a fully functional order taking application.  The generated software will understand that customers have orders, orders have line items, and that any changes to an order's line items should be recorded.  Also the software will automatically encrypt the customer's social security number as it is deemed to be sensitive information.
 
 We estimate that using Dictation along with <a href="http://lucidtechnics.github.com/projects/airlift.html">Airlift</a>, our open source cloud based web application framework, we can reduce a typical web application project's execution time by 50% or more.
