@@ -244,7 +244,7 @@ html,body {
   padding: 30px 0px;
   text-align: center;
   font-weight: 700;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   z-index: 2000;
   display: block;
   float: left;
@@ -374,7 +374,7 @@ html,body {
 
 #main h1 {
   padding: 10px 0;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   padding-top: 20px;
 }
@@ -407,7 +407,7 @@ html,body {
 }
 
 #main .team-members .member .links a {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   color: white;
   background: #0C2331;
@@ -423,7 +423,7 @@ html,body {
 
 .about-menu {
   background: #E0E0E0;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   padding-top: 10px;
 }
 
@@ -490,7 +490,7 @@ html,body {
   /*margin-right: 20px;*/
   margin-right: 1px;
   width: 60px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   height: 40px;
   text-align: center;
@@ -533,7 +533,7 @@ html,body {
 .slides .slide .title {
   font-weight: 700;
   position: absolute;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   top: 140px;
   left: 0px;
   font-size: 35px;
@@ -543,7 +543,7 @@ html,body {
   opacity: 0.8;
   position: absolute;
   top: 230px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   left: 0px;
   font-size: 25px;
@@ -621,7 +621,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 }
 
 #footer {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300; 
   height: 90px; /* negative value of footer height */
   overflow: hidden;
@@ -709,7 +709,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
   /*line-height: 50px;*/
   color: #fff;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 200;
   padding-left: 20px;
   font-size: 17px;
@@ -725,7 +725,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   left: 0px;
   right: 0px;
   height: 50px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   color: #fff;
   line-height: 50px;
@@ -772,7 +772,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 .article-link .number {
   display: none;
-  font-family:'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   line-height: 30px;
 	color: #fff;
 }
@@ -835,7 +835,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .improve-article-wrapper {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   border-top: 1px solid #CCC;
   font-size: 20px;
@@ -865,7 +865,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .intro .title {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   position: relative;
   width: 844px;
   font-size: 36px;
@@ -882,7 +882,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   padding: 20px 0;
   padding-bottom: 30px;
   opacity: 0.7;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 22px;
   line-height: 1.5em;
@@ -890,7 +890,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 .intro .meta {
   height: 50px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   width: 844px;
