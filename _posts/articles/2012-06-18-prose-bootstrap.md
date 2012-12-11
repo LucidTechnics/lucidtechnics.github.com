@@ -1,41 +1,16 @@
 ---
 layout: article
-title: Introducing Prose Bootstrap
-abstract: Prose Bootstrap is a simple template in order to get started with Jekyll.
+title: Open Data
+abstract: Creating open data stores within your organization is the key to increasing data discovery and reuse.
 author_twitter: lucidtechnics
-author: Michael Aufreiter
+author: Bediako George
 categories:
 - articles
 ---
 
-
-All you have to do is forking the repository and make your own adjustments.
-
-![Start](http://f.cl.ly/items/0t0A170b2Y093F2u1w45/Screen%20Shot%202012-05-23%20at%205.48.45%20PM.png)
-
-Adjust Configuration
------------------
-
-Make sure you setup `_config.yml` correctly.
-
-If your page lives under `http://username.github.com/sitename` your config.yml looks like this:
-
-    auto: true
-    server: true
-    permalink: none
-    baseurl: "sitename"
-    exclude:
-    - .gitignore
-    - README.md
-
-
-Use Prose.io to edit the contents of your site
-published: true
 ---
 
----
-
------------
+--------
 When Vivek Kundra was the CIO of the District of Columbia, he championed the idea of a more open government. His thought was that by making the District's data more open, both DC's government and its citizens would inexorably benefit from this in unpredictable ways.
 
 One of the many data opening initiatives he encouraged was Apps For Democracy. This was a project that encouraged private citizens to explore opportunities to mash up government data in ways not thought of by the District itself. The purpose of this project was to provoke a few thoughtful responses from the crowd of application developers with free time to engage in such pursuits.
