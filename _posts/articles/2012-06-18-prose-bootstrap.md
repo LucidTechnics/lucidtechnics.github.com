@@ -30,7 +30,9 @@ If your page lives under `http://username.github.com/sitename` your config.yml l
 
 
 Use Prose.io to edit the contents of your site
------------------
+---
+
+--------------
 
 It was challenging, but Prose supports OAuth. I think it's very important to use OAuth over Basic Authentication, since Github data can be very sensible and no one wants to risk getting his password sniffed.
 
@@ -48,3 +50,16 @@ Once you have selected a repository, you can browse your posts and sub-folders i
 We use CodeMirror, a great software that makes browser-based editing a pleasure (the first time). Compared to a regular textarea, which has an annoying inline scoller this is a huge step forward I think.
 
 ![Edit](http://f.cl.ly/items/3E0Q2K3V0M3z1O2j1r1H/Screen%20Shot%202012-05-22%20at%201.53.28%20AM.png)
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7466901-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
