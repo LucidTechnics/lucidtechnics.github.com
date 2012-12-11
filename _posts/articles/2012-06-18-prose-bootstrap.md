@@ -30,7 +30,7 @@ If your page lives under `http://username.github.com/sitename` your config.yml l
 
 
 Use Prose.io to edit the contents of your site
-published: false
+published: true
 ---
 
 ---
