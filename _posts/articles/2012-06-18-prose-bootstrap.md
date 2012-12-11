@@ -8,9 +8,9 @@ categories:
 - articles
 ---
 
+published: true
 ---
 
---------
 When Vivek Kundra was the CIO of the District of Columbia, he championed the idea of a more open government. His thought was that by making the District's data more open, both DC's government and its citizens would inexorably benefit from this in unpredictable ways.
 
 One of the many data opening initiatives he encouraged was Apps For Democracy. This was a project that encouraged private citizens to explore opportunities to mash up government data in ways not thought of by the District itself. The purpose of this project was to provoke a few thoughtful responses from the crowd of application developers with free time to engage in such pursuits.
