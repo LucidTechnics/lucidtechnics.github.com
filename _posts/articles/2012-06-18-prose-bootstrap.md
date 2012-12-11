@@ -6,9 +6,10 @@ author_twitter: lucidtechnics
 author: Bediako George
 categories:
 - articles
+published: true
 ---
 
-published: true
+
 ---
 
 When Vivek Kundra was the CIO of the District of Columbia, he championed the idea of a more open government. His thought was that by making the District's data more open, both DC's government and its citizens would inexorably benefit from this in unpredictable ways.
