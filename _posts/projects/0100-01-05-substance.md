@@ -12,6 +12,8 @@ categories:
 published: true
 ---
 
+Lucid Technics is an active donor to the Substance.io project.
+
 Substance is a fully web-based document authoring and publishing platform. With Substance, Writers, Scientists, Journalists and everyone who's interested in publishing can use an open platform for writing and sharing articles in a collaborative way. 
 
 # Structured composition
