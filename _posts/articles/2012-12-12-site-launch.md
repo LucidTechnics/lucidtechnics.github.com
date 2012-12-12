@@ -15,7 +15,7 @@ Over the last couple of years or so, Dave and I have been quite busy.  We have c
 
 As a matter of fact we were so busy doing these things, we were unable to spend much time on ourselves. Paramount in this neglect was our own website.  Quite frankly it was terrible. The biggest problem with it was that we could not use our site to let the world know that we existed and that we were doing cool things. 
 
-So we decided to change that.  First we thought hard about the things we needed our website to be able to do.  Then we looked at other companies websites, and talked to other people to see what they thought.  When we were done we knew the qualities we wanted to have for our new website ...
+So we decided to change that.  First we thought hard about the things we needed our website to be able to do.  Then we looked at other companies' websites, and talked to other people to see what they thought.  When we were done we knew the qualities we wanted to have for our new website ...
 
 * It should be HTML based.  No flash or animations or anything fancy.  We should be able to tell the world what we are doing using just text and images.
 * It should be social.  If our fans like what we are doing here, it should be easy for them to tell others.
