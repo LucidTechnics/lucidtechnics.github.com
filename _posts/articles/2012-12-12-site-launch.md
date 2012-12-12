@@ -11,7 +11,7 @@ published: true
 
 ---
 
-Over the last couple of years or so, Dave and I have been quite busy.  We have created a cloud based framework called Airlift. We created a business friendly requirements gathering language called Dictation.  We have used these packages to do wonderful things for our clients, automating manual processes using the cloud, the web, and artificial intelligence.
+Over the last couple of years or so, Dave and I have been quite busy.  We have created a cloud based framework called [Airlift](http://lucidtechnics.github.com/projects/airlift.html). We created a business friendly requirements gathering language called [Dictation](http://lucidtechnics.github.com/projects/dictation.html).  We have used these packages to do wonderful things for our clients, automating manual processes using the cloud, the web, and artificial intelligence.
 
 All of this time we have spent working hard for our clients we were unable to spend time on ourselves. Principal in this neglect was our own website.
 
