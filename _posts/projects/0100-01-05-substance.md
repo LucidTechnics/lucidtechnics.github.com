@@ -51,4 +51,4 @@ New content node types should be supported through a plugin system. Applications
 
 Traditional digital formats have always tried to imitate paper. Think of footnotes and references that are listed at the bottom of the document. We're going to break with this tradition and introduce only general concepts that are relevant to digital content.
 
-Sound interesting?  Well you can learn more about the status of the Substance project ![here](http://interior.substance.io).
+Sound interesting?  Well you can learn more about the status of the Substance project [here](http://interior.substance.io).
