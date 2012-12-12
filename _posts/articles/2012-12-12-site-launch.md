@@ -21,7 +21,7 @@ So we decided to change that.  First we thought hard about the things we needed 
 * It should be social.  If our fans like what we are doing here, it should be easy for them to tell others.
 * It should be easy to maintain.  When we have something to say, we should be able to just write it and it will appear on our site.  A non-technical person should be able to do this as easy as we techies are able to do it.
 * It should be easy to change.  When we get tired of one presentation we should be able to move to another presentation or style with minimal effort.  No need to call in a design expert to get that done. (No offense to any design experts out there.)
-* It should be available.  No outages!
+* It should be highly available.  No outages!
 * It should be free to run.  Actually this was not a requirement, but it turned out to be true as well.
 
 We were able to meet all of these requirements.  We still had a time crunch problem so we decided to secure some help. Through the work of Michael Aufrieter and Vincent Saiz of the open source project Substance we were able to quickly redesign, and redeploy our new site.
