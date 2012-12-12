@@ -11,11 +11,11 @@ published: true
 
 ---
 
-Over the last couple of years or so, Dave and I have been quite busy.  We have created a cloud based framework called [Airlift](http://lucidtechnics.github.com/projects/airlift.html). We created a business friendly requirements gathering language called [Dictation](http://lucidtechnics.github.com/projects/dictation.html).  We have used these packages to do wonderful things for our clients, automating manual processes using the cloud, the web, and artificial intelligence.
+Over the last couple of years or so, Dave and I have been quite busy.  We have created a cloud based framework for creating web applications and called it [Airlift](http://lucidtechnics.github.com/projects/airlift.html). We also created a business friendly requirements gathering language used to generate Airlift code and called it [Dictation](http://lucidtechnics.github.com/projects/dictation.html).  We have used these open source tools to do wonderful things for our clients, automating their manual processes using the cloud, the web, and artificial intelligence.
 
-All of this time we have spent working hard for our clients we were unable to spend time on ourselves. Principal in this neglect was our own website.
+As a matter of fact we were so busy doing these things, we were unable to spend much time on ourselves. Paramount in this neglect was our own website.  Quite frankly it was terrible. The biggest problem with it was that we could not use our site to let the world know that we existed and that we were doing cool things. 
 
-We knew what it should be but we could not afford the time to pursue it ourselves.  Nevertheless it was clear what we wanted ...
+So we decided to change that.  First we thought hard about the things we need our website to be able to do.  Then we looked at other companies websites, and talked to other people to see what they thought.  When we were done we knew the qualities we wanted to have for our new website ...
 
 * It should be HTML based.  No flash or animations or anything fancy.  We should be able to tell the world what we are doing using just text and images.
 * It should be social.  If our fans like what we are doing here, it should be easy for them to tell others.
@@ -24,9 +24,11 @@ We knew what it should be but we could not afford the time to pursue it ourselve
 * It should be available.  No outages!
 * It should be free to run.  Actually this was not a requirement, but it turned out to be true as well.
 
-We were able to meet all of these requirements mainly through the work of Michael Aufrieter and Vincent Saiz of the open source project Substance.  In particular, this website is itself an open source site that runs on Github as a free open source project.  All the content to this site is available on Github and can be freely downloaded by anyone.
+We were able to meet all of these requirements.  We still had a time crunch problem so we decided to secure some help. Through the work of Michael Aufrieter and Vincent Saiz of the open source project Substance we were able to quickly redesign, and redeploy our new site.
 
-We manage the site using [Prose.io](http://prose.io).  Prose.io is a content editor built on top of Jeckyl.  It was created by Michael during his stint at Development Seed when he was here in Washington DC over the summer.  So much thanks goes out to Micheal, as well as Eric Gunderson of Development Seed who without his sponsership of Prose.io this web site would not be possible.
+There are some interesting things to note about our new site.  This website is itself an open source site that runs on Github as a free open source project.  All the content to this site is available on Github and can be freely downloaded by anyone.
+
+We manage the site using [Prose.io](http://prose.io).  Prose.io is a content editor built on top of Jeckyl.  It was created by Michael during his stint at Development Seed when he was here in Washington DC over the summer.  So much thanks goes out to Michael, as well as Eric Gunderson of Development Seed, who without his sponsership of Prose.io development this web site as it stands would not be possible.
 
 If you would like to learn more about how this site was created please send us an email to info@lucidtechnics.com and we will be more than happy to explain the details.
 
