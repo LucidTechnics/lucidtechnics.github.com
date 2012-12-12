@@ -44,3 +44,8 @@ So instead of showing the end of the line information and the arrival time of th
 In the sign above, the 7 minute delay between Gallery Place and Metro Center is considered below normal performance, and as such, a red heptagon (for color blind people a change in shape is helpful) indicates that the system is performing below expectations between Gallery Place and Metro Center.
 
 In many ways, the information sharing challenges experienced by Washington DC's metro system are similar to many of the issues we architects experience in creating high performance web sites. Displaying accurate system status to end users is a design factor too often left out. This blog posting addresses this mistake in a highly used and very public transit system but the techniques used to solve those problems can be directly transfered to similar situations on the Web.
+
+<!-- Place this tag where you want the +1 button to render. -->
+			<div class="g-plusone" data-annotation="inline" data-width="300"></div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-text="Lucid Technics Journal" data-size="large">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
