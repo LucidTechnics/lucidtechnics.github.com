@@ -24,7 +24,7 @@ So we decided to change that.  First we thought hard about the things we needed 
 * It should be highly available.  No outages!
 * It should cost us nothing to host.  Actually this was not a requirement, but it turned out to be true as well.
 
-We were able to meet all of these requirements.  We still had a time crunch problem so we decided to secure some help. Through the work of Michael Aufrieter and Vincent Saiz of the open source project Substance we were able to quickly redesign, and redeploy our new site.
+We were able to meet all of these requirements.  We still had a time crunch problem so we decided to secure some help. Through the work of Michael Aufrieter and Vincent Saiz of the open source project [Substance](http://substance.io) we were able to quickly redesign, and redeploy our new site.
 
 There are some interesting things to note about our new site.  This website is itself an open source site that runs on Github as a free open source project.  All the content of this site is available on Github and can be freely downloaded by anyone.
 
