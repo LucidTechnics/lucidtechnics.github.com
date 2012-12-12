@@ -12,7 +12,7 @@ categories:
 published: true
 ---
 
-Lucid Technics is an active donor to the Substance.io project.
+Lucid Technics is an active donor to the Substance project. We support Substance because we want to encourage the creation of an open platform for sharing data on the web.
 
 Substance is a fully web-based document authoring and publishing platform. With Substance, Writers, Scientists, Journalists and everyone who's interested in publishing can use an open platform for writing and sharing articles in a collaborative way. 
 
@@ -50,3 +50,5 @@ New content node types should be supported through a plugin system. Applications
 # Imitating paper
 
 Traditional digital formats have always tried to imitate paper. Think of footnotes and references that are listed at the bottom of the document. We're going to break with this tradition and introduce only general concepts that are relevant to digital content.
+
+Sound interesting?  Well you can learn more about the status of the Substance project ![here](http://http://interior.substance.io).
