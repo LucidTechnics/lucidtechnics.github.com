@@ -26,7 +26,7 @@ So we decided to change that.  First we thought hard about the things we needed 
 
 We were able to meet all of these requirements.  We still had a time crunch problem so we decided to secure some help. Through the work of Michael Aufrieter and Vincent Saiz of the open source project Substance we were able to quickly redesign, and redeploy our new site.
 
-There are some interesting things to note about our new site.  This website is itself an open source site that runs on Github as a free open source project.  All the content to this site is available on Github and can be freely downloaded by anyone.
+There are some interesting things to note about our new site.  This website is itself an open source site that runs on Github as a free open source project.  All the content of this site is available on Github and can be freely downloaded by anyone.
 
 We manage the site using [Prose.io](http://prose.io).  Prose.io is a content editor built on top of Jeckyl.  It was created by Michael during his stint at Development Seed when he was here in Washington DC over the summer.  So much thanks goes out to Michael, as well as Eric Gunderson of Development Seed, who without his sponsership of Prose.io development this web site as it stands would not be possible.
 
