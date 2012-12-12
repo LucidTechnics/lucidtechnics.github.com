@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Open Data
-abstract: Creating open data stores within your organization is the key to increasing data discovery and reuse.
+title: Hello. We are Lucid Technics!
+abstract: Our website launches today.
 author_twitter: lucidtechnics
 author: Bediako George and David Hodge
 categories:
