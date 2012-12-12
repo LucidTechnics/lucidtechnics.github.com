@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Hello. We are Lucid Technics!
-abstract: Our website launches today.
+abstract: Our brand new open source website hosted on Github launches today.
 author_twitter: lucidtechnics
 author: Bediako George and David Hodge
 categories:
