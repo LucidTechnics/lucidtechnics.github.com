@@ -2,6 +2,7 @@
 layout: article
 title: Hello there. We are Lucid Technics!
 abstract: Our brand new open source website hosted on Github launches today.
+prose_link: http://prose.io/#LucidTechnics/lucidtechnics.github.com/edit/master/_posts/articles/2012-12-12-site-launch.md
 author_twitter: lucidtechnics
 author: Bediako George and David Hodge
 categories:
