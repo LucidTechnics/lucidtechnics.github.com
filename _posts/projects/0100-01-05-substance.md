@@ -9,7 +9,7 @@ author: Bediako George
 image: /images/redwood_794_244.jpg
 categories:
 - projects
-published: true
+published: false
 ---
 
 Lucid Technics is an active donor to the Substance project. We support Substance because we want to encourage the creation of an open platform for sharing data on the web.
