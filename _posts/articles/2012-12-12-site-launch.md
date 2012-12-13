@@ -32,7 +32,7 @@ We manage the site using [Prose](http://developmentseed.org/blog/2012/june/25/pr
 
 If you would like to learn more about how this site was created please send us an email to [info@lucidtechnics.com]("mailto:info@lucidtechnics.com") and we will be more than happy to explain the details.
 
-Otherwise please enjoy our new site and let us know if anything you find here interests you.  We are happy to talk to anyone about the work we have done as well as the projects we have coming down the pipe.
+Otherwise please enjoy our new site and let us know if anything you find here interests you.  And stayed tuned ... we are just getting started!
 
 Sincerely,
 
