@@ -30,7 +30,8 @@ layout: default
 </script>
     </div>
   </div>
-
+  
+  {% if page.prose_link == 1 %}
   <div class="improve-article-wrapper">
     <div class="improve-article">
       <a class="button" href="{{ page.prose_link }}">Edit in Prose</a>
@@ -39,4 +40,5 @@ layout: default
       </p>
     </div>
   </div>
+  {% endif %}
 </div>
