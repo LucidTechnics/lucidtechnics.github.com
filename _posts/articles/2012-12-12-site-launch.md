@@ -30,7 +30,7 @@ There are some interesting things to note about our new site.  This website is i
 
 We manage the site using [Prose.io](http://developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/).  Prose.io is a content editor built on top of [Jekyll](https://github.com/mojombo/jekyll).  It was created by Michael during his stint at Development Seed when he was here in Washington DC over the summer.  So much thanks goes out to Michael, as well as Eric Gunderson of Development Seed, who without his sponsership of Prose.io development this web site as it stands would not be possible.
 
-If you would like to learn more about how this site was created please send us an email to info@lucidtechnics.com and we will be more than happy to explain the details.
+If you would like to learn more about how this site was created please send us an email to [info@lucidtechnics.com]("mailto:info@lucidtechnics.com") and we will be more than happy to explain the details.
 
 Otherwise please enjoy our new site and let us know if anything you find here interests you.  We are happy to talk to anyone about the work we have done as well as the projects we have coming down the pipe.
 
