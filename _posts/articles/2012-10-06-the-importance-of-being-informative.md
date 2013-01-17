@@ -2,6 +2,7 @@
 layout: article
 title: The Importance of Being Informative
 abstract: ... how can Washington D.C. metro system do a better job of communicating train status using their existing electronic signs?
+prose_link: http://prose.io/#LucidTechnics/lucidtechnics.github.com/edit/master/_posts/articles/2012-10-06-the-importance-of-being-informative.md
 author_twitter: lucidtechnics
 author: Bediako George
 categories:
@@ -41,6 +42,6 @@ What if WMATA used colored symbols (shapes) combined with a prioritized informat
 
 So instead of showing the end of the line information and the arrival time of the next train, we can show the expected arrival times for key stations in the system. What stations would qualify as key stations? This would depend on the station you are waiting in, but it would most often be transfer stations, and popular exit points. So if you get on the Red line train at Takoma station and you are heading downtown during the morning rush hour, the message board should give you the expected arrival times for Takoma, Union Station, Gallery Place, and Metro Center. For the vast number of travelers entering Takoma I would expect that this would be more than enough to determine whether or not the system is working well. The color coded symbols will tell you whether or not the expected arrival time is considered normal or abnormal.
 
-In the sign above, the 7 minute delay between Gallery Place and Metro Center is considered below normal performance, and as such, a red heptagon (for color blind people a change in shape is helpful) indicates that the system is performing below expectations between Gallery Place and Metro Center.
+In the sign above, the 7 minute travel time between Gallery Place and Metro Center (27 - 20 = 7) is considered below normal performance, and as such, a red heptagon (for color blind people a change in shape is helpful) indicates that the system is performing below expectations between Gallery Place and Metro Center.
 
 In many ways, the information sharing challenges experienced by Washington DC's metro system are similar to many of the issues we architects experience in creating high performance web sites. Displaying accurate system status to end users is a design factor too often left out. This blog posting addresses this mistake in a highly used and very public transit system but the techniques used to solve those problems can be directly transfered to similar situations on the Web.

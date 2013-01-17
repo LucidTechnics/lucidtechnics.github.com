@@ -27,19 +27,31 @@ permalink: /articles/
         <div class="article-wrapper">
           <div class="help post-content">
             {{ page.content }}
-          </div>
+            <!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-annotation="inline" data-width="300"></div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-text="Lucid Technics Journal" data-size="large">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+          </div>          
         </div>
-
+        {% if page.prose_link %}
         <div class="improve-article-wrapper">
           <div class="improve-article">
-            <a class="button" href="{{page.prose_link }}">Edit in Prose</a>
+            <a class="button" href="{{ page.prose_link }}">Edit in Prose</a>
             <p>
-              This article has been written and published using <a href="http://prose.io" target="_blank">Prose</a>. Please help improving this documentation by contributing to the text.
+              This article has been written and published using <a href="http://prose.io" target="_blank">Prose</a>.<br/>Please help improving it by contributing to the text.
             </p>
           </div>
         </div>
+        {% endif %}
       {% endfor %}
     </div>
-
   </div>
 </div>
