@@ -11,9 +11,9 @@ categories:
 published: true
 ---
 
-Dictation is an open source english based language for describing business applications.  Using Dictation, one can describe in plain english how your business works.  We can then take that description and rapidly generate working software from it.  Dictation can describe your business down to the lowest levels, even including your operation's audit and security concerns.
+Dictation is an open source English based language for describing business applications.  Using Dictation, one can describe in plain English how your business works.  We can then take that description and rapidly generate working software from it.  Dictation can describe your business down to the lowest levels, even including your operation's audit and security concerns.
 
-The best thing about Dictation is how easy it is to read and write. You do not have to be technically savvy to fully understand Dictation.  It looks and sounds just like plain english!  Take a look at the following example of Dictation paragraphs that describe a customer, her order, and the line items in the order.
+The best thing about Dictation is how easy it is to read and write. You do not have to be technically savvy to fully understand Dictation.  It looks and sounds just like plain English!  Take a look at the following example of Dictation paragraphs that describe a customer, her order, and the line items in the order.
 
     A Customer
     has a nick name
