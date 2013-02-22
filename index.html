@@ -14,18 +14,21 @@ slides:
   image: /images/barrels.gif
 ---
 <div id='main' class="home">
-  <script>
-    $(function() {
-      $('.toggle-slide').click(function(e) {
-        $('.slides .toggle-slide').removeClass('active');
-        $(e.currentTarget).addClass('active');
-        var slideNum = $(e.currentTarget).attr('data-slide');
-        $('.slides .slide').hide();
 
-        console.log($('.slide-'+slideNum));
-        $('.slide-'+slideNum).show();
-      });
-    });
+   <script>
+		$(document).ready(function(){
+			$(function() {
+			  $('.toggle-slide').click(function(e) {
+				$('.slides .toggle-slide').removeClass('active');
+				$(e.currentTarget).addClass('active');
+				var slideNum = $(e.currentTarget).attr('data-slide');
+				$('.slides .slide').hide();
+
+				console.log($('.slide-'+slideNum));
+				$('.slide-'+slideNum).show();
+			  });
+			});
+		});
   </script>
 
   <div class="start">
