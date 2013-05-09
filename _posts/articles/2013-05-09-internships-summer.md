@@ -2,7 +2,7 @@
 published: true
 layout: article
 title: "Summer Internships - 2013"
-abstract: "Our summer internship program starts June 1st, 2013."
+abstract: "Our summer internship program begins June 1st, 2013."
 prose_link: "http://prose.io/#LucidTechnics/lucidtechnics.github.com/edit/master/_posts/articles/2013-05-09-internships-summer-2013.md"
 author_twitter: lucidtechnics
 author: Bediako George
