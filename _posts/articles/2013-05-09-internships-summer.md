@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: article
 title: "Summer Internships - 2013"
 abstract: "Our summer internship program starts June 1st, 2013."
