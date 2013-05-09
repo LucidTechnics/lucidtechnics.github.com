@@ -20,11 +20,11 @@ Here are some of the projects we have made available for our internship program:
 ####Technology Internships
 * [Airlift](http://lucidtechnics.github.com/projects/airlift.html) - Our restful code generator for App Engine. We are in the process of finalizing our 2.0 release of Airlift.  You will be able to get a first look at the new release as well as contribute to the final set of feature improvements.
 
-* [Dictation](http://lucidtechnics.github.com/projects/dictation.html) - Our business requirements gathering domain specific language. Dictation has been a big hit with our customers, but we are looking to make it even better.  Help us make business requirements capture easier by developing tooling to make Dictation easier to write and read.
+* [Dictation](http://lucidtechnics.github.com/projects/dictation.html) - Our business requirements gathering domain specific language. Dictation has been a big hit with our customers, but we are looking to make it even better.  Help us make business requirements capture easier by developing tooling to make Dictation easier to read and write.
 
-* Data visualization - several of our customers have huge data visualization challenges that would benefit from your perspective.
+* Data visualization - several of our customers have huge data visualization challenges that would benefit from your unique perspective.
 
-* Natural language processing - Help us improve understanding of information rich documents by layering helpful semantic annotations.
+* Natural language processing - Help us improve the speed of comprehension of information rich documents by uncovering information hidden in plain sight.
 
 ####Technical Writing Internship
 * Several of our products could use some documentation support.  Help us make Airlift and Dictation easier to use!
@@ -32,6 +32,6 @@ Here are some of the projects we have made available for our internship program:
 ####Public Relations Internship
 * We think we are doing great things at Lucid Technics, and we want to let the world know.  Help us come up with effective ways to get our message out!
 
-If any of the above is interesting to you, please send your resume to [internships@lucidtechnics.com](mailto:internships@lucidtechnics.com).  Make sure to include a cover letter that includes a paragraph about yourself and also indicates which one of the aforementioned projects you are most interested in.
+If any of the above are interesting to you, please send your resume to [internships@lucidtechnics.com](mailto:internships@lucidtechnics.com).  Make sure to include a cover letter that includes a paragraph about yourself and also indicates which one of the aforementioned projects you are most interested in.
 
 Bediako and Dave
