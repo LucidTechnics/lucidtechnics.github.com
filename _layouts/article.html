@@ -23,9 +23,11 @@ layout: default
         <div class="title">{{page.title}}</div>
         <div class="abstract">{{page.abstract}}</div>
         <div class="meta"> Posted by <a href="http://twitter.com/{{page.author_twitter}}">{{page.author}}</a> on {{ page.date | date: "%B %d, %Y" }} </div>
-        <script type="IN/Share"></script>
+        <div class="meta">
+          <script type="IN/Share"></script>
 <div class="g-plus" data-action="share" data-annotation="none"></div>
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="lucidtechnics" data-count="none">Tweet</a>
+        </div>
       </div>
 
       <div class="article-wrapper">
