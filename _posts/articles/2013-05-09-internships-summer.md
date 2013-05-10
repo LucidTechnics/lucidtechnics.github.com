@@ -13,6 +13,8 @@ categories:
 
 Looking for something interesting to do this summer?  Want to build your resume at the same time? How about making a little money while you are at it?  Then consider an internship with Lucid Technics.  We are proud to announce our 10 week paid summer internship program beginning June 1st, 2013.
 
+
+
 Selected interns will have the opportunity to really contribute to cool projects, while at the same time, exploring beautiful Washington, DC!
 
 Here are some of the projects we have made available for our internship program:
