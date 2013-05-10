@@ -11,7 +11,7 @@ categories:
 
 ---
 
-![medieval baker apprenticeship](https://raw.github.com/LucidTechnics/lucidtechnics.github.com/master/images/articles/Apprenticeship_628x268.jpg)
+![medieval baker apprenticeship](https://raw.github.com/LucidTechnics/lucidtechnics.github.com/master/images/articles/Apprenticeship_grayscale_628x268.jpg
 
 Looking for something interesting to do this summer?  Want to build your resume at the same time? How about making a little money while you are at it?  Then consider an internship with [Lucid Technics](http://www.lucidtechnics.com).  We are proud to announce our 10 week paid summer internship program beginning June 1st, 2013.
 
