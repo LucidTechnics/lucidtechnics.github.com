@@ -28,7 +28,7 @@ Here are some of the projects we have made available for our internship program:
 
 * Natural language processing - Help us improve the speed of comprehension of information rich documents by uncovering information hidden in plain sight.
 
-* Predictive Analytics - one of our customers would like to have better insight as to which orders are most likely to be cancelled.   Help them realize this goal by applying cloud based machine learning algorithms on a rich history of order data. 
+* Predictive analytics - one of our customers would like to have better insight as to which orders are most likely to be cancelled.   Help them realize this goal by applying cloud based machine learning algorithms on a rich history of order data. 
 
 ####Technical Writing Internship
 * Several of our products could use some documentation support.  Help us make Airlift and Dictation easier to use!
