@@ -1,6 +1,5 @@
 ## Becoming Lucid with Google Glass
-
-http://www.ultraimg.com/images/j4MYI.jpg
+<img src="http://www.ultraimg.com/images/j4MYI.jpg" border="0" />
 
 A few weeks ago, I became a member of the Google Glass Explorers program and I picked up my Glass in New York.  At this point, I had already dabbled with creating applications for Glass ever since trying them on for the first time.  That first time was "magic" and I thought: "We made it to the future".  Since then, it has become more clear on how Glass and similar devices will change our lives.
 
