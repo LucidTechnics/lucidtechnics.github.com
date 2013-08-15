@@ -1,5 +1,12 @@
 ---
 published: true
+layout: article
+abstract: A perspective on Google Glass.
+prose_link: "http://prose.io/#LucidTechnics/lucidtechnics.github.com/edit/master/_posts/articles/2013-08-14-Becoming-Lucid-with-Glass.md"
+author_twitter: davezen1
+author: David Hodge
+categories: 
+  - articles
 ---
 
 ## Becoming Lucid with Google Glass
