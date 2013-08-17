@@ -11,7 +11,7 @@ categories:
 
 ## Becoming Lucid with Google Glass
 
-![](/http://www.ultraimg.com/images/j4MYI.jpg)
+![David Hodge Google Glass Pickup](/http://www.ultraimg.com/images/j4MYI.jpg)
 
 A few weeks ago, I became a member of the Google Glass Explorers program and I picked up my Glass in New York.  At this point, I had already dabbled with creating applications for Glass ever since trying them on for the first time.  That first time was "magic" and I thought: **"We made it to the future"**.  Since then, it has become more clear on how Glass and similar devices will change our lives.
 
@@ -25,4 +25,4 @@ David Hodge
 
 Here is a photo album of my trip to NYC to pickup Glass:
 
-https://plus.google.com/photos/113404022968680346521/albums/5906586738272603137
+[NYC Google Glass Pickup](https://plus.google.com/photos/113404022968680346521/albums/5906586738272603137 "NYC Google Glass Pickup")
