@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Becoming Lucid with Google Glass
