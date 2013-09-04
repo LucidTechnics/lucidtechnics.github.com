@@ -1,5 +1,12 @@
 ---
 published: true
+layout: article
+abstract: "Becoming Lucid with Glass - First thoughts on Google Glass"
+prose_link: "http://prose.io/#LucidTechnics/lucidtechnics.github.com/edit/master/_posts/articles/2013-09-03-becoming-lucid-with-glass.md"
+author_twitter: davezen1
+author: David Hodge
+categories: 
+  - articles
 ---
 
 ## Becoming Lucid with Google Glass
