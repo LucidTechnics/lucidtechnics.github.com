@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Becoming Lucid with Google Glass
@@ -11,7 +11,6 @@ A few weeks ago, I became a member of the Google Glass Explorers program and I p
 **_Glass is personal._**  When I first got Glass, my wife and I walked around Chelsea in NYC.  I was amazed at the picture quality from Glass. Even more amazing is how little effort needed to find take and share pictures or find the nearest Thai restaurants. I think it is the closest we can get to technology (right now) without it being embedded in our person.  I have been using Glass to capture the fleeting moments of my children's childhood. I recently attended their Tae Kwon Do graduation and held their boards for them to break.  I recorded it from my perspective.  I then showed them the videos when we got home and shared with family and friends. Think about that.  Glass has become almost invisible and I find myself trying to take a picture or video even when I don't have them on.
 
 ![Central Park through Glass](http://i.imgur.com/pDkYvz3.jpg)
-
 
 **_Glass is also for work._**  I believe many industries will be using some form of wearable device in the near future.  From the system administrator to the structural engineer to the educators, Glass will be everywhere and invisible. By this I mean Glass and other devices will become mainstream because of the effortless use and because of the near instant response.  However, right now we are in the so called "hype cycle" of Glass and many are creating applications for Glass without understanding how different it is from other devices.  Designing for Glass is not like designing for a website.  Take news media applications, if your news site is sending Glass notifications too frequently, users may flock.  What will users do if they keep getting bad news or see an emotionally jarring photo of conflict?  Remember, Glass is personal. You get a notification from Glass, a quick look up and you are looking at a card in your timeline.  You are not perusing a website, that card is _right_ there.
 
