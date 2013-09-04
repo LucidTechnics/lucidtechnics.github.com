@@ -1,15 +1,13 @@
 ---
 layout: article
-title: Hello there. We are Lucid Technics!
+title: "Hello there. We are Lucid Technics!"
 abstract: Our brand new open source website hosted on Github launches today.
-prose_link: http://prose.io/#LucidTechnics/lucidtechnics.github.com/edit/master/_posts/articles/2012-12-12-site-launch.md
+prose_link: "http://prose.io/#LucidTechnics/lucidtechnics.github.com/edit/master/_posts/articles/2012-12-12-site-launch.md"
 author_twitter: lucidtechnics
 author: Bediako George and David Hodge
-categories:
-- articles
+categories: 
+  - articles
 published: true
-
-
 ---
 
 Over the last couple of years or so, Dave and I have been quite busy.  We created a cloud based framework for creating web applications and called it [Airlift](http://lucidtechnics.github.com/projects/airlift.html). We also created a business friendly requirements gathering language used to generate Airlift code and called it [Dictation](http://lucidtechnics.github.com/projects/dictation.html).  We have used these open source tools to do wonderful things for our clients, automating their manual processes using the cloud, the web, and artificial intelligence.
@@ -31,7 +29,7 @@ There are some interesting things to note about our new site.  This website is a
 
 We manage the site using [Prose](http://developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/).  Prose is a content editor built and based on [Jekyll](https://github.com/mojombo/jekyll), a blog aware static site generator.  Prose was created by Michael during his stint at Development Seed in Washington DC over the summer.  So much thanks goes out to Michael, as well as Eric Gunderson of Development Seed; without Eric's sponsorship of Prose development this web site would be a lot harder.
 
-If you would like to learn more about how this site was created, you can reach us via [info@lucidtechnics.com]("mailto:info@lucidtechnics.com"). We will be more than happy to explain the details.
+If you would like to learn more about how this site was created, you can reach us via <info@lucidtechnics.com>. We will be more than happy to explain the details.
 
 Otherwise please enjoy our new site and let us know if anything you find here interests you.  And stay tuned ... we are just getting started!
 
