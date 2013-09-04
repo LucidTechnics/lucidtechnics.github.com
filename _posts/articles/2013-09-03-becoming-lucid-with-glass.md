@@ -23,6 +23,6 @@ A few weeks ago, I became a member of the Google Glass Explorers program and I p
 
 Glass is a game changer in ways I have not even thought of yet.  The first wave of apps are just that, the first wave.  The next wave of apps will use more of the capabilities of Glass such as the gyroscope, accelerometer, and magnetometer sensors.  Last week, I went back up to New York to the Google Glass Basecamp for a meetup with other explorers.  What I took away from talking to the wide range of explorers is that there is a great potential for apps to change the way we work.  Whether your works revolves around a construction site, writing, or making art.  We can use Glass to enhance what we already are doing by making it easier or what I like to call 'less friction'.  The easier something is to do, the more likely a user will repeat the action.  I take many pictures and video (I have less than 8 GB left, should probably start deleting since they are automatically backed up on Google+).  That could mean comparing updated blueprints to a construction site or getting notifications for the nearest kid friendly park.     
 
-Finally, I don't know the future.  I don't know how this Glass story ends but I know we are _in_ the future and this is just the beginning. 
+Finally, I don't know the future.  I don't know how this Glass story ends but I know we are _in_ the future and this is just the beginning. ;) 
 
 David Hodge #throughglass
