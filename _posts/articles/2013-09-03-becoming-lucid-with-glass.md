@@ -26,7 +26,3 @@ Glass is a game changer in ways I have not even thought of yet.  The first wave 
 Finally, I don't know the future.  I don't know how this Glass story ends but I know we are _in_ the future and this is just the beginning. 
 
 David Hodge #throughglass
-
-Here is a photo album of my trip to NYC to pickup Glass:
-
-[NYC Google Glass Pickup](https://plus.google.com/photos/113404022968680346521/albums/5906586738272603137 "NYC Google Glass Pickup")
