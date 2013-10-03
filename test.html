@@ -1,0 +1,34 @@
+<div id='main' class="home">
+
+   <script>
+		$(document).ready(function(){
+			$(function() {
+			  $('.toggle-slide').click(function(e) {
+				$('.slides .toggle-slide').removeClass('active');
+				$(e.currentTarget).addClass('active');
+				var slideNum = $(e.currentTarget).attr('data-slide');
+				$('.slides .slide').hide();
+
+				$('.slide-'+slideNum).show();
+			  });
+			});
+		});
+  </script>
+
+  <div class="start">
+    {% include menu.html %}
+
+    <div class="slides">
+      <div class="navigation">
+        <a href="#" class="toggle-slide first active" data-slide="1">1</a>
+        <a href="#" class="toggle-slide" data-slide="2">2</a>
+        <a href="#" class="toggle-slide last" data-slide="3">3</a>
+      </div>
+
+      
+     Test
+     
+     Logos
+   </div>
+  </div>
+</div>
