@@ -312,6 +312,19 @@ html,body {
   color: #fff;
 }
 
+#menu a.products {
+  border-bottom: 10px solid rgba(126, 170, 16, 1);
+}
+
+#menu a.products:hover {
+  background: rgba(126, 170, 16, 0.1);
+}
+
+#menu a.products.active {
+  background: rgba(126, 170, 16, 0.5);
+  color: #fff;
+}
+
 #menu a.team {
   width: 138px;
   border-bottom: 10px solid rgba(59, 98, 126, 1.0);
@@ -353,6 +366,7 @@ html,body {
 
 #main.home,
 #main.articles,
+#main.products,
 #main.project{
 	padding-bottom: 0;
 }
